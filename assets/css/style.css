@@ -135,4 +135,7 @@ p {
         width: 100%;
         margin-left: 0;
     }
+    .media-scroll {
+        height: 200px;
+    }
 }
