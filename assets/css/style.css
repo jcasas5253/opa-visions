@@ -31,7 +31,11 @@ audio {
 }
 
 .nav-link:hover {
-    color: red;
+    color: red !important;
+}
+
+.nav-link {
+    color: yellow !important;
 }
 
 .navbar-collapse {
