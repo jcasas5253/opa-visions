@@ -1,14 +1,37 @@
 body {
-    background: url("../../assets/images/yellow-gradient-orange-.svg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: url("../../assets/images/background.JPG") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h2 {
+    color: purple;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*body {
+    background: url("../../assets/images/background.JPG") no-repeat center center fixed;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}*/
+
+audio {
+    outline: none !important;
 }
 
 .navbar {
     padding-top: 0;
     padding-bottom: 0;
+    background-color: rgba(255,255,255,0.5) !important;
+}
+
+.nav-link:hover {
+    color: red;
 }
 
 .navbar-collapse {
@@ -21,8 +44,7 @@ body {
     border-radius: .25rem;
 }
 
-h2 {
-    background: url("../../assets/images/purple.jpg") no-repeat center center fixed;
+p {
     margin-left: 25%;
     margin-bottom: 0;
     border-radius: .25rem;
@@ -30,11 +52,22 @@ h2 {
     color: #ffffff;
 }
 
-.media-container {
+.media-scroll {
     padding: 20px;
     height: 300px;
-    width: 100%;
     overflow-y: scroll;
+    width: 96%;
+    height: 300px;
+}
+
+.media-container {
+    background-color: rgba(255,255,255,0.5) !important;
+    width: 40%;
+    height: 40%;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    margin-left: 30%;
 }
 
 .song-name {
@@ -51,7 +84,53 @@ h2 {
     padding: 15px;
 }
 
-@media only screen and (max-width: 710px) {
+.btn-container {
+    text-align: center;
+}
+
+  .music-btn{
+    background:rgb(231, 111, 12);
+    color:#fff;
+    border:none;
+    position:relative;
+    height:60px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none !important;
+    border-radius: 10px;
+    margin-top: 115px;
+    margin-bottom: 15px;
+  }
+  .music-btn:hover{
+    background:black;
+    color: #fff;
+  }
+  .music-btn:before,button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: yellow;
+    transition:400ms ease all;
+  }
+  .music-btn:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .music-btn:hover:before,button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+  
+  
+
+@media only screen and (max-width: 760px) {
     .media-container, h2, .song-name {
         width: 100%;
         margin-left: 0;
