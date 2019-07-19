@@ -333,6 +333,9 @@ body {
   .pause-play4:hover {
     opacity: 1 !important;
   }
+  .title {
+      text-align: center;
+  }
   
    
   
