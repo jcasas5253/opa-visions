@@ -1,168 +1,391 @@
 <!doctype html>
+
 <html lang="en">
 
+
+
 <head>
+
     <!-- Required meta tags -->
+
     <meta charset="utf-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+
+
     <!-- Bootstrap CSS -->
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
+
+
     <title>OPA Visions</title>
+
 </head>
 
+
+
 <body>
+
+    <!-- Navbar -->
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
         <img class="logo" src="assets/images/Screenshot (17).png"></img>
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
             <span class="navbar-toggler-icon"></span>
+
         </button>
 
+
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
             <ul class="navbar-nav mr-auto">
+
                 <li class="nav-item active">
+
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+
                 </li>
+
                 <li class="nav-item">
+
                     <a class="nav-link" href="#">Link</a>
+
                 </li>
+
                 <li class="nav-item dropdown">
+
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
                         Dropdown
+
                     </a>
+
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
                         <a class="dropdown-item" href="#">Action</a>
+
                         <a class="dropdown-item" href="#">Another action</a>
+
                         <div class="dropdown-divider"></div>
+
                         <a class="dropdown-item" href="#">Something else here</a>
+
                     </div>
+
                 </li>
+
                 <li class="nav-item">
+
                     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+
                 </li>
+
             </ul>
+
         </div>
+
     </nav>
+
+
+
+    <!-- Album Btn -->
+
     <div class="btn-container">
-        <button class="music-btn" onclick="toggleMusic()">Music</button>
+
+        <button class="music-btn" onclick="toggleMusic()">NOCLASSIFIED</button>
+
     </div>
+
+
+
     <div class="media-container" id="content-container" style="display:none;">
+
         <div class="media-scroll">
+
             <h2>THE X FILES</h2>
+
             <div class="media-player">
+
                 <p style="color:red; font-weight:bold; font-size:15px;">DXNCE ft. Johny Gordon prod. NK</p>
-                <audio id="audio" controls>
+
+                <audio id="audio1" controls>
+
                     <source src="assets/audio/DXNCE ft Johny Gordon prod NK.mp3" type="audio/ogg">
+
                     <source src="assets/audio/DXNCE ft Johny Gordon prod NK.mp3" type="audio/mpeg">
+
                 </audio>
+
             </div>
+
             <h2 style="margin-top:25px;">NOCLASSIFIED</h2>
+
             <div class="media=player">
+
                 <p style="color:red; font-weight:bold; font-size:15px;">Johnny Nascar (ft. B- SOLT, RJ)</p>
-                <audio id="audio" controls>
+
+                <audio id="audio2" controls>
+
                     <source src="assets/audio/Johnny Nascar (ft B- SOLT RJ).mp3" type="audio/ogg">
+
                     <source src="assets/audio/Johnny Nascar (ft B- SOLT RJ).mp3" type="audio/mpeg">
+
                 </audio>
+
             </div>
+
             <div class="media-player">
+
                 <p style="color:red; font-weight:bold; font-size:15px;">Drippin in sauce (SLO)</p>
-                <audio id="audio" controls>
+
+                <audio id="audio3" controls>
+
                     <source src="assets/audio/Drippin in sauce (SLO).mp3" type="audio/ogg">
+
                     <source src="assets/audio/Drippin in sauce (SLO).mp3" type="audio/mpeg">
+
                 </audio>
+
             </div>
+
             <div class="media-player">
+
                 <p style="color:red; font-weight:bold; font-size:15px;">Hate It Or Love It</p>
-                <audio id="audio" controls>
+
+                <audio id="audio4" controls>
+
                     <source src="assets/audio/Hate It Or Love It.mp3" type="audio/ogg">
+
                     <source src="assets/audio/Hate It Or Love It.mp3" type="audio/mpeg">
+
                 </audio>
+
                 <div class="media-player">
+
                     <p style="color:red; font-weight:bold; font-size:15px;">Gucci Drip ft (Slo)</p>
-                    <audio id="audio" controls>
+
+                    <audio id="audio5" controls>
+
                         <source src="assets/audio/Gucci Drip ft (Slo).mp3" type="audio/ogg">
+
                         <source src="assets/audio/Gucci Drip ft (Slo).mp3" type="audio/mpeg">
+
                     </audio>
+
                 </div>
+
                 <h2 style="margin-top:25px;">Johny's Mixtape</h2>
+
                 <div class="media-player">
+
                     <p style="color:red; font-weight:bold; font-size:15px;">Gifted</p>
-                    <audio id="audio" controls>
+
+                    <audio id="audio6" controls>
+
                         <source src="assets/audio/Gifted.mp3" type="audio/ogg">
+
                         <source src="assets/audio/Gifted.mp3" type="audio/mpeg">
+
                     </audio>
+
                 </div>
+
                 <div class="media-player">
+
                     <p style="color:red; font-weight:bold; font-size:15px;">Hit The Gas (ft. JAH FLAME) </p>
-                    <audio id="audio" controls>
+
+                    <audio id="audio7" controls>
+
                         <source src="assets/audio/Hit The Gas (ft JAH FLAME).mp3" type="audio/ogg">
+
                         <source src="assets/audio/Hit The Gas (ft JAH FLAME).mp3" type="audio/mpeg">
+
                     </audio>
+
                 </div>
+
                 <div class="media-player">
+
                     <p style="color:red; font-weight:bold; font-size:15px;">24/7 (ft SLO)</p>
-                    <audio id="audio" controls>
+
+                    <audio id="audio8" controls>
+
                         <source src="assets/audio/24_7 (ft SLO).mp3" type="audio/ogg">
+
                         <source src="assets/audio/24_7 (ft SLO).mp3" type="audio/mpeg">
+
                     </audio>
+
                 </div>
+
                 <div class="media-player">
+
                     <p style="color:red; font-weight:bold; font-size:15px;">City On Fire SLO X Johny Gordon </p>
-                    <audio id="audio" controls>
+
+                    <audio id="audio9" controls>
+
                         <source src="assets/audio/City On Fire SLO X Johny Gordon.mp3" type="audio/ogg">
+
                         <source src="assets/audio/City On Fire SLO X Johny Gordon.mp3" type="audio/mpeg">
+
                     </audio>
+
                 </div>
+
                 <div class="media-player">
+
                     <p style="color:red; font-weight:bold; font-size:15px;">Bacardi and Condoms (ft. Johny Gordon)</p>
-                    <audio id="audio" controls>
+
+                    <audio id="audio10" controls>
+
                         <source src="assets/audio/Bacardi and Condoms (ft Johny Gordon).mp3" type="audio/ogg">
+
                         <source src="assets/audio/Bacardi and Condoms (ft Johny Gordon).mp3" type="audio/mpeg">
+
                     </audio>
+
                 </div>
+
                 <div class="media-player">
+
                     <p style="color:red; font-weight:bold; font-size:15px;">Banjo</p>
-                    <audio id="audio" controls>
+
+                    <audio id="audio11" controls>
+
                         <source src="assets/audio/Banjo.mp3" type="audio/ogg">
+
                         <source src="assets/audio/Banjo.mp3" type="audio/mpeg">
+
                     </audio>
+
                 </div>
+
                 <div class="media-player">
+
                     <p style="color:red; font-weight:bold; font-size:15px;">Pop In Pop Out</p>
-                    <audio id="audio" controls>
+
+                    <audio id="audio12" controls>
+
                         <source src="assets/audio/Pop In Pop Out.mp3" type="audio/ogg">
+
                         <source src="assets/audio/Pop In Pop Out.mp3" type="audio/mpeg">
+
                     </audio>
+
                 </div>
+
                 <div class="media-player">
+
                     <p style="color:red; font-weight:bold; font-size:15px;">MAGIC MOUNTAIN (ft. RJ)</p>
-                    <audio id="audio" controls>
+
+                    <audio id="audio13" controls>
+
                         <source src="assets/audio/MAGIC MOUNTAIN (ft RJ).mp3" type="audio/ogg">
+
                         <source src="assets/audio/MAGIC MOUNTAIN (ft RJ).mp3" type="audio/mpeg">
+
                     </audio>
+
                 </div>
+
             </div>
+
         </div>
 
+    </div>
 
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="assets/javascript/app.js"></script>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+    <section id="playstation">
+
+        <div id="controlpanel">
+
+            <div id="backward" class="inlineblo"><i class="fa fa-backward"></i></div>
+
+            <div id="songpro" class="inlineblo"></div>
+
+            <div id="forward" class="inlineblo"><i class="fa fa-forward"></i></div>
+
+            <h1>Johny Gordon</h1>
+
+            <h2>NOCLASSIFIED</h2>
+
+        </div>
+
+        <progress max="100" value="80"></progress>
+
+        <ol>
+
+            <li>Johnny Nascar (ft. B- SOLT, RJ) <span style="margin-left: 25px;" class="btn btn-primary"><img onclick="playAudio()"
+                        class="play-pause" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img
+                        onclick="pauseAudio()" class="pause-play" style="height:30px;opacity:0.8"
+                        src="assets/images/pause-512.png"></span></li>
+
+            <li>Drippin in sauce (SLO)  <span style="margin-left: 89px;" class="btn btn-primary"><img onclick="playAudio()"
+                class="play-pause" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img
+                onclick="pauseAudio()" class="pause-play" style="height:30px;opacity:0.8"
+                src="assets/images/pause-512.png"></span></li>
+
+            <li>Hate It Or Love It <span style="margin-left: 126px;" class="btn btn-primary"><img onclick="playAudio()"
+                class="play-pause" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img
+                onclick="pauseAudio()" class="pause-play" style="height:30px;opacity:0.8"
+                src="assets/images/pause-512.png"></span></li>
+
+            <li>Gucci Drip ft (Slo <span style="margin-left: 126px;" class="btn btn-primary"><img onclick="playAudio()"
+                class="play-pause" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img
+                onclick="pauseAudio()" class="pause-play" style="height:30px;opacity:0.8"
+                src="assets/images/pause-512.png"></span></li>
+
+        </ol>
+
+    </section>
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+    <script src="assets/javascript/app.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
 </body>
+
+
 
 </html>
