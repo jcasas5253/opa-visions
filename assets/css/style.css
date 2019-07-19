@@ -43,6 +43,12 @@ body {
       outline: none !important;
   
   }
+
+  .btn-container {
+      background-color: rgba(255,255,255,0.5);
+      margin-left: 25%;
+      width: 50%;
+  }
   
    
   
@@ -182,7 +188,7 @@ body {
   
    
   
-    .music-btn{
+    .music-btn, .new-album{
   
       background:rgb(231, 111, 12);
   
@@ -204,9 +210,10 @@ body {
   
       outline:none !important;
   
-      margin-top: 115px;
+      margin-top: 15px;
   
       margin-bottom: 15px;
+      width: 283px;
   
     }
   
@@ -217,6 +224,14 @@ body {
       color: #fff;
   
     }
+
+    .new-album:hover{
+  
+        background:black;
+    
+        color: #fff;
+    
+      }
   
     .music-btn:before,button:after{
   
@@ -237,6 +252,25 @@ body {
       transition:400ms ease all;
   
     }
+    .new-album:before,button:after{
+  
+        content:'';
+    
+        position:absolute;
+    
+        top:0;
+    
+        right:0;
+    
+        height:2px;
+    
+        width:0;
+    
+        background: yellow;
+    
+        transition:400ms ease all;
+    
+      }
   
     .music-btn:after{
   
@@ -249,6 +283,17 @@ body {
       bottom:0;
   
     }
+    .new-album:after{
+  
+        right:inherit;
+    
+        top:inherit;
+    
+        left:0;
+    
+        bottom:0;
+    
+      }
   
     .music-btn:hover:before,button:hover:after{
   
@@ -257,6 +302,13 @@ body {
       transition:800ms ease all;
   
     }
+    .new-album:hover:before,button:hover:after{
+  
+        width:100%;
+    
+        transition:800ms ease all;
+    
+      }
   
   .btn-primary {
   
@@ -270,11 +322,15 @@ body {
   
   }
   
-  .play-pause:hover {
+  .play-pause:hover, .play-pause1:hover,
+  .play-pause2:hover, .play-pause3:hover,
+  .play-pause4:hover {
       opacity: 1 !important;  
   }
   
-  .pause-play:hover {
+  .pause-play:hover, .pause-play1:hover,
+  .pause-play2:hover, .pause-play3:hover,
+  .pause-play4:hover {
     opacity: 1 !important;
   }
   
@@ -330,7 +386,7 @@ body {
   
   }
   
-  #playstation {
+  #playstation, #playstation1 {
   
       background: rgba(255,255,255,0.5);
   
@@ -381,6 +437,27 @@ body {
       box-shadow: inset 0px 0px 10px 2px #5f5f5f;
   
   }
+  #songpro1 {
+  
+    width: 180px;
+
+    height: 180px;
+
+    border-radius: 50%;
+
+    border: 1px solid #eaeaea;
+
+    position: relative;
+
+    margin: 0 0px 0px 23px;
+
+    background: url("https://i1.sndcdn.com/artworks-000523144152-4b2o1q-t500x500.jpg") no-repeat 0 0;
+
+    background-size: 220px 220px;
+
+    box-shadow: inset 0px 0px 10px 2px #5f5f5f;
+
+}
   
    
   
