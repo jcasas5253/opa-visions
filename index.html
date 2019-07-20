@@ -2,8 +2,6 @@
 
 <html lang="en">
 
-
-
 <head>
 
     <!-- Required meta tags -->
@@ -12,117 +10,169 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-
-
     <!-- Bootstrap CSS -->
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-
 
     <title>OPA Visions</title>
 
 </head>
 
-
-
 <body>
 
     <!-- Navbar -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="row">
 
-        <img class="logo" src="assets/images/Screenshot (17).png"></img>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="width:100%;">
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <img class="logo" src="assets/images/Screenshot (17).png">
 
-            <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
-        </button>
+                <span class="navbar-toggler-icon"></span>
 
+            </button>
 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
 
-            <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
 
-                <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
 
-                </li>
+                    <li class="nav-item">
 
-                <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
 
-                    <a class="nav-link" href="#">Link</a>
+                    </li>
 
-                </li>
+                    <li class="nav-item dropdown">
 
-                <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
 
-                        Dropdown
+                        </a>
 
-                    </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
 
-                        <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
 
-                        <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
 
-                        <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
 
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+
+    </div>
+
+    <!-- Album Cards -->
+
+    <div class="row">
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="album-container">
+
+            <div class="btn-container" id="container-btn">
+
+                <h1 id="albums" style="font-weight: bold;border-bottom-style:solid;border-bottom-color:black;border-bottom-width:2px;margin-bottom:0!important;margin-right:auto;margin-left:auto;">Albums</h1>
+
+                <div class="flip-card" style="margin-top:15px;">
+
+                    <div class="flip-card-inner">
+
+                        <div class="flip-card-front">
+
+                            <img src="https://i1.sndcdn.com/artworks-000523144152-4b2o1q-t500x500.jpg" alt="Avatar" style="width:300px;height:300px;">
+
+                        </div>
+
+                        <div class="flip-card-back">
+
+                            <button class="music-btn" id="x-files" onclick="xFiles()" style="margin-top:35%;">The X Files</button>
+
+                        </div>
 
                     </div>
 
-                </li>
+                </div>
 
-                <li class="nav-item">
+                <div class="flip-card">
 
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <div class="flip-card-inner">
 
-                </li>
+                        <div class="flip-card-front">
 
-            </ul>
+                            <img src="https://i1.sndcdn.com/artworks-000320657727-b9lykq-t500x500.jpg" alt="Avatar" style="width:300px;height:300px;">
+
+                        </div>
+
+                        <div class="flip-card-back">
+
+                            <button class="music-btn" id="noclassified" onclick="toggleMusic()" style="margin-top:35%;">NOCLASSIFIED</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="flip-card">
+
+                    <div class="flip-card-inner">
+
+                        <div class="flip-card-front">
+
+                            <img src="assets/images/mixtape.jpg" alt="Avatar" style="width:300px;height:300px;">
+
+                        </div>
+
+                        <div class="flip-card-back">
+
+                            <button class="music-btn" id="noclassified" onclick="mixTape()" style="margin-top:35%;">Johny's Mixtape</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
 
         </div>
 
-    </nav>
-
-
-
-    <!-- Album Btn -->
-    <div class="btn-container" style="margin-top:75px;">
-        <h1 id="albums" style="font-weight: bold;border-bottom-style:solid;border-bottom-color:yellow;border-bottom-width:2px;">Albums</h1>
-
-        <button class="music-btn" id="x-files" onclick="xFiles()">The X Files</button>
-
     </div>
 
-    <div class="btn-container">
-
-        <button class="music-btn" id="noclassified" onclick="toggleMusic()" style="margin-top:0;">NOCLASSIFIED</button>
-
-    </div>
-    <div class="btn-container" style="display:none;">
-        <button class="music-btn" id="mixtape" onclick="toggleMusic()" style="margin-top:0;">Johny's Mixtape</button>
-
-    </div>
-    <div class="btn-container">
+    <div class="btn-container1">
 
         <button class="new-album" id="album-new" style="display:none;" onclick="newAlbum()">New Album</button>
 
     </div>
-
-
 
     <div class="media-container" id="content-container" style="display:none;">
 
@@ -320,7 +370,8 @@
 
     </div>
 
-<!-- The X Files -->
+    <!-- The X Files -->
+
     <section style="display:none;" id="playstation1">
 
         <div id="controlpanel">
@@ -339,22 +390,28 @@
 
         <progress max="100" value="80"></progress>
 
-        <ol>
+        <ol class="music-player">
 
-            <li class="title" style="font-size:15px;">DXNCE ft. Johny Gordon prod. NK <span style="display:block;"class="btn btn-primary"><img onclick="playAudioXFiles()"
-                        class="play-pause4" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img
-                        onclick="pauseAudioXFiles()" class="pause-play4" style="height:30px;opacity:0.8"
-                        src="assets/images/pause-512.png"></span></li>
+            <li class="title" style="font-size:15px;">
+
+                DXNCE ft. Johny Gordon prod. NK <span style="display:block;" class="btn btn-primary">
+
+                    <img onclick="playAudioXFiles()"
+
+                         class="play-pause4" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioXFiles()" class="pause-play4" style="height:30px;opacity:0.8"
+
+                                                                                                                   src="assets/images/pause-512.png">
+
+                </span>
+
+            </li>
 
         </ol>
 
     </section>
 
+    <!-- NOCLASSIFIED -->
 
-
-
-
-<!-- NOCLASSIFIED -->
     <section id="playstation" style="display:none;">
 
         <div id="controlpanel">
@@ -373,61 +430,328 @@
 
         <progress max="100" value="80"></progress>
 
-        <ol>
+        <ol class="music-player">
 
-            <li class="title">Johnny Nascar (ft. B- SOLT, RJ) <span style="display:block;" class="btn btn-primary"><img onclick="playAudio()"
-                        class="play-pause" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img
-                        onclick="pauseAudio()" class="pause-play" style="height:30px;opacity:0.8"
-                        src="assets/images/pause-512.png"></span></li>
+            <li class="title">
 
-            <li class="title">Drippin in sauce (SLO)  <span style="display:block;" class="btn btn-primary"><img onclick="playAudioTwo()"
-                class="play-pause1" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img
-                onclick="pauseAudioTwo()" class="pause-play1" style="height:30px;opacity:0.8"
-                src="assets/images/pause-512.png"></span></li>
+                Johnny Nascar (ft. B- SOLT, RJ) <span style="display:block;" class="btn btn-primary">
 
-            <li class="title">Hate It Or Love It <span style="display:block;" class="btn btn-primary"><img onclick="playAudioThree()"
-                class="play-pause2" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img
-                onclick="pauseAudioThree()" class="pause-play2" style="height:30px;opacity:0.8"
-                src="assets/images/pause-512.png"></span></li>
+                    <img onclick="playAudio()"
 
-            <li class="title">Gucci Drip ft (Slo <span style="display:block;"class="btn btn-primary"><img onclick="playAudioFour()"
-                class="play-pause3" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img
-                onclick="pauseAudioFour()" class="pause-play3" style="height:30px;opacity:0.8"
-                src="assets/images/pause-512.png"></span></li>
+                         class="play-pause" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudio()" class="pause-play" style="height:30px;opacity:0.8"
+
+                                                                                                                  src="assets/images/pause-512.png">
+
+                </span>
+
+            </li>
+
+            <li class="title">
+
+                Drippin in sauce (SLO) <span style="display:block;" class="btn btn-primary">
+
+                    <img onclick="playAudioTwo()"
+
+                         class="play-pause1" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioTwo()" class="pause-play1" style="height:30px;opacity:0.8"
+
+                                                                                                                   src="assets/images/pause-512.png">
+
+                </span>
+
+            </li>
+
+            <li class="title">
+
+                Hate It Or Love It <span style="display:block;" class="btn btn-primary">
+
+                    <img onclick="playAudioThree()"
+
+                         class="play-pause2" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioThree()" class="pause-play2" style="height:30px;opacity:0.8"
+
+                                                                                                                   src="assets/images/pause-512.png">
+
+                </span>
+
+            </li>
+
+            <li class="title">
+
+                Gucci Drip ft (Slo <span style="display:block;" class="btn btn-primary">
+
+                    <img onclick="playAudioFour()"
+
+                         class="play-pause3" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioFour()" class="pause-play3" style="height:30px;opacity:0.8"
+
+                                                                                                                   src="assets/images/pause-512.png">
+
+                </span>
+
+            </li>
 
         </ol>
 
     </section>
 
+    <!-- Johny's Mixtape -->
 
+    <section id="playstation2" style="display:none;">
 
+        <div id="controlpanel">
 
+            <div id="backward" class="inlineblo"><i class="fa fa-backward"></i></div>
 
+            <div id="songpro2" class="inlineblo"></div>
 
+            <div id="forward" class="inlineblo"><i class="fa fa-forward"></i></div>
+
+            <h1 style="font-weight:bold;">Johny Gordon</h1>
+
+            <h2 style="font-weight:bold;">Johny's Mixtape</h2>
+
+        </div>
+
+        <progress max="100" value="80"></progress>
+
+        <ol class="music-player">
+
+            <li class="title">
+
+                Gifted <span style="display:block;" class="btn btn-primary">
+
+                    <img onclick="playAudioSix()"
+
+                         class="play-pause5" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioSix()" class="pause-play5" style="height:30px;opacity:0.8"
+
+                                                                                                                  src="assets/images/pause-512.png">
+
+                </span>
+
+            </li>
+
+            <li class="title">
+
+                Hit The Gas (ft. JAH FLAME) <span style="display:block;" class="btn btn-primary">
+
+                    <img onclick="playAudioSeven()"
+
+                         class="play-pause6" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioSeven()" class="pause-play6" style="height:30px;opacity:0.8"
+
+                                                                                                                   src="assets/images/pause-512.png">
+
+                </span>
+
+            </li>
+
+            <li class="title">
+
+                24/7 (ft SLO <span style="display:block;" class="btn btn-primary">
+
+                    <img onclick="playAudioEight()"
+
+                         class="play-pause7" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioEight()" class="pause-play7" style="height:30px;opacity:0.8"
+
+                                                                                                                   src="assets/images/pause-512.png">
+
+                </span>
+
+            </li>
+
+            <li class="title">
+
+                City On Fire SLO X Johny Gordon <span style="display:block;" class="btn btn-primary">
+
+                    <img onclick="playAudioNine()"
+
+                         class="play-pause8" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioNine()" class="pause-play8" style="height:30px;opacity:0.8"
+
+                                                                                                                   src="assets/images/pause-512.png">
+
+                </span>
+
+            </li>
+
+            <li class="title">
+
+                Bacardi and Condoms (ft. Johny Gordon) <span style="display:block;" class="btn btn-primary">
+
+                    <img onclick="playAudioTen()"
+
+                         class="play-pause9" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioTen()" class="pause-play9" style="height:30px;opacity:0.8"
+
+                                                                                                                   src="assets/images/pause-512.png">
+
+                </span>
+
+            </li>
+
+            <li class="title">
+
+                Banjo <span style="display:block;" class="btn btn-primary">
+
+                    <img onclick="playAudioEleven()"
+
+                         class="play-pause10" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioEleven()" class="pause-play10" style="height:30px;opacity:0.8"
+
+                                                                                                                   src="assets/images/pause-512.png">
+
+                </span>
+
+            </li>
+
+            <li class="title">
+
+                Pop In Pop Out <span style="display:block;" class="btn btn-primary">
+
+                    <img onclick="playAudioTwelve()"
+
+                         class="play-pause11" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioTwelve()" class="pause-play11" style="height:30px;opacity:0.8"
+
+                                                                                                                   src="assets/images/pause-512.png">
+
+                </span>
+
+            </li>
+
+            <li class="title">
+
+                MAGIC MOUNTAIN (ft. RJ) <span style="display:block;" class="btn btn-primary">
+
+                    <img onclick="playAudioThirteen()"
+
+                         class="play-pause12" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioThirteen()" class="pause-play12" style="height:30px;opacity:0.8"
+
+                                                                                                                   src="assets/images/pause-512.png">
+
+                </span>
+
+            </li>
+
+        </ol>
+
+    </section>
+
+    <section id="playstation2" style="display:none;">
+
+        <div id="controlpanel">
+
+            <div id="backward" class="inlineblo"><i class="fa fa-backward"></i></div>
+
+            <div id="songpro2" class="inlineblo"></div>
+
+            <div id="forward" class="inlineblo"><i class="fa fa-forward"></i></div>
+
+            <h1 style="font-weight:bold;">Johny Gordon</h1>
+
+            <h2 style="font-weight:bold;">Minute Maid</h2>
+
+        </div>
+
+        <progress max="100" value="80"></progress>
+
+        <ol class="music-player">
+
+            <li class="title">
+
+                ARE YOU READY? (T-Money) <span style="display:block;" class="btn btn-primary">
+
+                    <img onclick="playAudioSix()"
+
+                         class="play-pause5" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioSix()" class="pause-play5" style="height:30px;opacity:0.8"
+
+                                                                                                                  src="assets/images/pause-512.png">
+
+                </span>
+
+            </li>
+
+            <li class="title">
+
+                Bombay (T-Money) <span style="display:block;" class="btn btn-primary">
+
+                    <img onclick="playAudioSeven()"
+
+                         class="play-pause6" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioSeven()" class="pause-play6" style="height:30px;opacity:0.8"
+
+                                                                                                                   src="assets/images/pause-512.png">
+
+                </span>
+
+            </li>
+
+            <li class="title">
+
+                Look at us Now (T-Money) <span style="display:block;" class="btn btn-primary">
+
+                    <img onclick="playAudioEight()"
+
+                         class="play-pause7" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioEight()" class="pause-play7" style="height:30px;opacity:0.8"
+
+                                                                                                                   src="assets/images/pause-512.png">
+
+                </span>
+
+            </li>
+
+            <li class="title">
+
+                Another Day (T-Money) <span style="display:block;" class="btn btn-primary">
+
+                    <img onclick="playAudioNine()"
+
+                         class="play-pause8" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioNine()" class="pause-play8" style="height:30px;opacity:0.8"
+
+                                                                                                                   src="assets/images/pause-512.png">
+
+                </span>
+
+            </li>
+
+            <li class="title">
+
+                Smoke to Much (T-Money) <span style="display:block;" class="btn btn-primary">
+
+                    <img onclick="playAudioTen()"
+
+                         class="play-pause9" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioTen()" class="pause-play9" style="height:30px;opacity:0.8"
+
+                                                                                                                   src="assets/images/pause-512.png">
+
+                </span>
+
+            </li>
+
+            <li class="title">
+
+                Faith ft. (Kylie x T-Money) <span style="display:block;" class="btn btn-primary">
+
+                    <img onclick="playAudioEleven()"
+
+                         class="play-pause10" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioEleven()" class="pause-play10" style="height:30px;opacity:0.8"
+
+                                                                                                                   src="assets/images/pause-512.png">
+
+                </span>
+
+            </li>
+
+        </ol>
+
+    </section>
 
     <!-- Optional JavaScript -->
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-    <script src="https://code.jquery.com/jquery-3.4.1.js"
-        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 
     <script src="assets/javascript/app.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
-
-
 
 </html>
