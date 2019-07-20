@@ -36,6 +36,10 @@ function toggleMusic() {
 
 }
 
+function card() {
+  $('.flip-card').css("trasform", "rotateY(180deg)");
+}
+
  
 
 function xFiles() {
