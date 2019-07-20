@@ -60,6 +60,16 @@ function mixTape() {
 
 }
 
+function minuteMaid() {
+
+  document.getElementById('playstation3').style.display = "block";
+
+  document.getElementById('container-btn').style.display = "none";
+
+  document.getElementById("album-new").style.display = "initial";
+
+}
+
  
 
 function newAlbum() {
@@ -73,6 +83,8 @@ function newAlbum() {
     document.getElementById('playstation1').style.display = "none";
 
     document.getElementById('playstation2').style.display = "none";
+    
+    document.getElementById('playstation3').style.display = "none";
 
 }
 
@@ -664,6 +676,234 @@ function playAudioThirteen() {
 
 }
 
+function playAudioFourteen() {
+
+  var myAudio = document.getElementById("audio14");
+
+  myAudio.play();
+
+  $('.play-pause13').css("border-style", "solid");
+
+  $('.play-pause13').css("border-width", "2px");
+
+  $('.play-pause13').css("border-color", "yellow");
+
+  $('.play-pause13').css("border-radius", "25px");
+
+  $('.pause-play13').css("border", "none");
+
+  $('.pause-play14').css("border", "none");
+
+  $('.pause-play15').css("border", "none");
+
+  $('.pause-play16').css("border", "none");
+
+  $('.pause-play17').css("border", "none");
+
+  $('.pause-play18').css("border", "none");
+
+  $('.play-pause14').css("border", "none");
+
+  $('.play-pause15').css("border", "none");
+
+  $('.play-pause16').css("border", "none");
+
+  $('.play-pause17').css("border", "none");
+
+  $('.play-pause18').css("border", "none");
+
+}
+
+function playAudioFifthteen() {
+
+  var myAudio = document.getElementById("audio15");
+
+  myAudio.play();
+
+  $('.play-pause14').css("border-style", "solid");
+
+  $('.play-pause14').css("border-width", "2px");
+
+  $('.play-pause14').css("border-color", "yellow");
+
+  $('.play-pause14').css("border-radius", "25px");
+
+  $('.pause-play13').css("border", "none");
+
+  $('.pause-play14').css("border", "none");
+
+  $('.pause-play15').css("border", "none");
+
+  $('.pause-play16').css("border", "none");
+
+  $('.pause-play17').css("border", "none");
+
+  $('.pause-play18').css("border", "none");
+
+  $('.play-pause13').css("border", "none");
+
+  $('.play-pause15').css("border", "none");
+
+  $('.play-pause16').css("border", "none");
+
+  $('.play-pause17').css("border", "none");
+
+  $('.play-pause18').css("border", "none");
+
+}
+
+function playAudioSixteen() {
+
+  var myAudio = document.getElementById("audio16");
+
+  myAudio.play();
+
+  $('.play-pause15').css("border-style", "solid");
+
+  $('.play-pause15').css("border-width", "2px");
+
+  $('.play-pause15').css("border-color", "yellow");
+
+  $('.play-pause15').css("border-radius", "25px");
+
+  $('.pause-play13').css("border", "none");
+
+  $('.pause-play14').css("border", "none");
+
+  $('.pause-play15').css("border", "none");
+
+  $('.pause-play16').css("border", "none");
+
+  $('.pause-play17').css("border", "none");
+
+  $('.pause-play18').css("border", "none");
+
+  $('.play-pause13').css("border", "none");
+
+  $('.play-pause14').css("border", "none");
+
+  $('.play-pause16').css("border", "none");
+
+  $('.play-pause17').css("border", "none");
+
+  $('.play-pause18').css("border", "none");
+
+}
+
+function playAudioSeventeen() {
+
+  var myAudio = document.getElementById("audio17");
+
+  myAudio.play();
+
+  $('.play-pause16').css("border-style", "solid");
+
+  $('.play-pause16').css("border-width", "2px");
+
+  $('.play-pause16').css("border-color", "yellow");
+
+  $('.play-pause16').css("border-radius", "25px");
+
+  $('.pause-play13').css("border", "none");
+
+  $('.pause-play14').css("border", "none");
+
+  $('.pause-play15').css("border", "none");
+
+  $('.pause-play16').css("border", "none");
+
+  $('.pause-play17').css("border", "none");
+
+  $('.pause-play18').css("border", "none");
+
+  $('.play-pause13').css("border", "none");
+
+  $('.play-pause14').css("border", "none");
+
+  $('.play-pause15').css("border", "none");
+
+  $('.play-pause17').css("border", "none");
+
+  $('.play-pause18').css("border", "none");
+
+}
+
+function playAudioEighteen() {
+
+  var myAudio = document.getElementById("audio18");
+
+  myAudio.play();
+
+  $('.play-pause17').css("border-style", "solid");
+
+  $('.play-pause17').css("border-width", "2px");
+
+  $('.play-pause17').css("border-color", "yellow");
+
+  $('.play-pause17').css("border-radius", "25px");
+
+  $('.pause-play13').css("border", "none");
+
+  $('.pause-play14').css("border", "none");
+
+  $('.pause-play15').css("border", "none");
+
+  $('.pause-play16').css("border", "none");
+
+  $('.pause-play17').css("border", "none");
+
+  $('.pause-play18').css("border", "none");
+
+  $('.play-pause13').css("border", "none");
+
+  $('.play-pause14').css("border", "none");
+
+  $('.play-pause15').css("border", "none");
+
+  $('.play-pause16').css("border", "none");
+
+  $('.play-pause18').css("border", "none");
+
+}
+
+function playAudioNineteen() {
+
+  var myAudio = document.getElementById("audio19");
+
+  myAudio.play();
+
+  $('.play-pause18').css("border-style", "solid");
+
+  $('.play-pause18').css("border-width", "2px");
+
+  $('.play-pause18').css("border-color", "yellow");
+
+  $('.play-pause18').css("border-radius", "25px");
+
+  $('.pause-play13').css("border", "none");
+
+  $('.pause-play14').css("border", "none");
+
+  $('.pause-play15').css("border", "none");
+
+  $('.pause-play16').css("border", "none");
+
+  $('.pause-play17').css("border", "none");
+
+  $('.pause-play18').css("border", "none");
+
+  $('.play-pause13').css("border", "none");
+
+  $('.play-pause14').css("border", "none");
+
+  $('.play-pause15').css("border", "none");
+
+  $('.play-pause16').css("border", "none");
+
+  $('.play-pause17').css("border", "none");
+
+}
+
  
 
 function playAudioXFiles() {
@@ -1213,6 +1453,234 @@ function pauseAudioThirteen() {
   $('.play-pause11').css("border", "none");
 
   $('.play-pause12').css("border", "none");
+
+}
+
+function pauseAudioFourteen() {
+
+  var myAudio = document.getElementById('audio14');
+
+  myAudio.pause();
+
+  $('.pause-play13').css("border-style", "solid");
+
+  $('.pause-play13').css("border-width", "2px");
+
+  $('.pause-play13').css("border-color", "yellow");
+
+  $('.pause-play13').css("border-radius", "25px");
+
+  $('.pause-play14').css("border", "none");
+
+  $('.pause-play15').css("border", "none");
+
+  $('.pause-play16').css("border", "none");
+
+  $('.pause-play17').css("border", "none");
+
+  $('.pause-play18').css("border", "none");
+
+  $('.play-pause13').css("border", "none");
+
+  $('.play-pause14').css("border", "none");
+
+  $('.play-pause15').css("border", "none");
+
+  $('.play-pause16').css("border", "none");
+
+  $('.play-pause17').css("border", "none");
+
+  $('.play-pause18').css("border", "none");
+
+}
+
+function pauseAudioFithteen() {
+
+  var myAudio = document.getElementById('audio15');
+
+  myAudio.pause();
+
+  $('.pause-play14').css("border-style", "solid");
+
+  $('.pause-play14').css("border-width", "2px");
+
+  $('.pause-play14').css("border-color", "yellow");
+
+  $('.pause-play14').css("border-radius", "25px");
+
+  $('.pause-play13').css("border", "none");
+
+  $('.pause-play15').css("border", "none");
+
+  $('.pause-play16').css("border", "none");
+
+  $('.pause-play17').css("border", "none");
+
+  $('.pause-play18').css("border", "none");
+
+  $('.play-pause13').css("border", "none");
+
+  $('.play-pause14').css("border", "none");
+
+  $('.play-pause15').css("border", "none");
+
+  $('.play-pause16').css("border", "none");
+
+  $('.play-pause17').css("border", "none");
+
+  $('.play-pause18').css("border", "none");
+
+}
+
+function pauseAudioSixteen() {
+
+  var myAudio = document.getElementById('audio16');
+
+  myAudio.pause();
+
+  $('.pause-play15').css("border-style", "solid");
+
+  $('.pause-play15').css("border-width", "2px");
+
+  $('.pause-play15').css("border-color", "yellow");
+
+  $('.pause-play15').css("border-radius", "25px");
+
+  $('.pause-play13').css("border", "none");
+
+  $('.pause-play14').css("border", "none");
+
+  $('.pause-play16').css("border", "none");
+
+  $('.pause-play17').css("border", "none");
+
+  $('.pause-play18').css("border", "none");
+
+  $('.play-pause13').css("border", "none");
+
+  $('.play-pause14').css("border", "none");
+
+  $('.play-pause15').css("border", "none");
+
+  $('.play-pause16').css("border", "none");
+
+  $('.play-pause17').css("border", "none");
+
+  $('.play-pause18').css("border", "none");
+
+}
+
+function pauseAudioSeventeen() {
+
+  var myAudio = document.getElementById('audio17');
+
+  myAudio.pause();
+
+  $('.pause-play16').css("border-style", "solid");
+
+  $('.pause-play16').css("border-width", "2px");
+
+  $('.pause-play16').css("border-color", "yellow");
+
+  $('.pause-play16').css("border-radius", "25px");
+
+  $('.pause-play13').css("border", "none");
+
+  $('.pause-play14').css("border", "none");
+
+  $('.pause-play15').css("border", "none");
+
+  $('.pause-play17').css("border", "none");
+
+  $('.pause-play18').css("border", "none");
+
+  $('.play-pause13').css("border", "none");
+
+  $('.play-pause14').css("border", "none");
+
+  $('.play-pause15').css("border", "none");
+
+  $('.play-pause16').css("border", "none");
+
+  $('.play-pause17').css("border", "none");
+
+  $('.play-pause18').css("border", "none");
+
+}
+
+function pauseAudioEighteen() {
+
+  var myAudio = document.getElementById('audio18');
+
+  myAudio.pause();
+
+  $('.pause-play17').css("border-style", "solid");
+
+  $('.pause-play17').css("border-width", "2px");
+
+  $('.pause-play17').css("border-color", "yellow");
+
+  $('.pause-play17').css("border-radius", "25px");
+
+  $('.pause-play13').css("border", "none");
+
+  $('.pause-play14').css("border", "none");
+
+  $('.pause-play15').css("border", "none");
+
+  $('.pause-play16').css("border", "none");
+
+  $('.pause-play18').css("border", "none");
+
+  $('.play-pause13').css("border", "none");
+
+  $('.play-pause14').css("border", "none");
+
+  $('.play-pause15').css("border", "none");
+
+  $('.play-pause16').css("border", "none");
+
+  $('.play-pause17').css("border", "none");
+
+  $('.play-pause18').css("border", "none");
+
+}
+
+function pauseAudioNineteen() {
+
+  var myAudio = document.getElementById('audio19');
+
+  myAudio.pause();
+
+  $('.pause-play18').css("border-style", "solid");
+
+  $('.pause-play18').css("border-width", "2px");
+
+  $('.pause-play18').css("border-color", "yellow");
+
+  $('.pause-play18').css("border-radius", "25px");
+
+  $('.pause-play13').css("border", "none");
+
+  $('.pause-play14').css("border", "none");
+
+  $('.pause-play15').css("border", "none");
+
+  $('.pause-play16').css("border", "none");
+
+  $('.pause-play17').css("border", "none");
+
+  $('.play-pause13').css("border", "none");
+
+  $('.play-pause14').css("border", "none");
+
+  $('.play-pause15').css("border", "none");
+
+  $('.play-pause16').css("border", "none");
+
+  $('.play-pause17').css("border", "none");
+
+  $('.play-pause18').css("border", "none");
 
 }
 
