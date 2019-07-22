@@ -1039,10 +1039,19 @@ progress[value] {
 
  
 
-.flip-card:hover .flip-card-inner, .flip-card:active .flip-card-inner {
+.flip-card:hover .flip-card-inner {
 
     transform: rotateY(180deg);
 
+}
+
+@media (pointer: none) {
+    .flip-card:hover .flip-card-inner{
+        transform: rotateY(0deg) !important;
+    }
+    .flip-card:active .flip-card-inner{
+        transform: rotateY(180deg) !important;
+    }
 }
 
  
