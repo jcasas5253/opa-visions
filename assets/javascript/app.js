@@ -36,6 +36,16 @@ $('#checkbox-four').click(function () {
     }
 })
 
+if ("ontouchstart" in document.documentElement) {
+    console.log("your device is a touch screen device.");
+    $('.music-btn').css("margin-top", "0")
+    $('.music-btn').css("height", "100%");
+    $('.music-btn').css("width", "100%");
+}
+else {
+    
+}
+
 
 function toggleMusic() {
 
