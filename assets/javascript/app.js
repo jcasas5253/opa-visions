@@ -1,5 +1,21 @@
 console.log("created by Jacob Casas");
 
+
+function touchScreen() {
+    if ("ontouchstart" in document.documentElement) {
+        $('.flip-card').hover(function() {
+            $('.flip-card').css("transform", "rotateY(0deg)");
+        })
+        $('.flip-card').click(function() {
+            $('.flip-card').css("transform", "rotateY(180deg");
+        })
+    }
+    else {
+        document.write("your device is NOT a touch device");
+    }
+}
+touchScreen();
+
  
 
 function toggleMusic() {
