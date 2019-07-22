@@ -101,92 +101,104 @@
             <div class="btn-container" id="container-btn">
 
                 <h1 id="albums" style="font-weight: bold;border-bottom-style:solid;border-bottom-color:black;border-bottom-width:2px;margin-bottom:0!important;margin-right:auto;margin-left:auto;">Albums</h1>
+                <label>
+                    <div class="flip-card1" id="card-flip" style="margin-top:15px;">
+                        <input type="checkbox" id="checkbox-one" style="display:none;" />
 
-                <div class="flip-card" style="margin-top:15px;">
+                        <div class="flip-card-inner1">
 
-                    <div class="flip-card-inner">
+                            <div class="flip-card-front">
 
-                        <div class="flip-card-front">
+                                <img src="https://i1.sndcdn.com/artworks-000523144152-4b2o1q-t500x500.jpg" alt="Avatar" style="width:300px;height:300px;">
 
-                            <img src="https://i1.sndcdn.com/artworks-000523144152-4b2o1q-t500x500.jpg" alt="Avatar" style="width:300px;height:300px;">
+                            </div>
 
-                        </div>
+                            <div class="flip-card-back">
 
-                        <div class="flip-card-back">
+                                <button class="music-btn" id="x-files" onclick="xFiles()" style="margin-top:35%;">The X Files</button>
 
-                            <button class="music-btn" id="x-files" onclick="xFiles()" style="margin-top:35%;">The X Files</button>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div class="flip-card">
-
-                    <div class="flip-card-inner">
-
-                        <div class="flip-card-front">
-
-                            <img src="https://i1.sndcdn.com/artworks-000320657727-b9lykq-t500x500.jpg" alt="Avatar" style="width:300px;height:300px;">
-
-                        </div>
-
-                        <div class="flip-card-back">
-
-                            <button class="music-btn" id="noclassified" onclick="toggleMusic()" style="margin-top:35%;">NOCLASSIFIED</button>
+                            </div>
 
                         </div>
 
                     </div>
+                </label>
 
-                </div>
+                <label>
+                    <div class="flip-card2" id="card-flip">
+                        <input type="checkbox" id="checkbox-two" style="display:none;" />
 
-                <div class="flip-card">
+                        <div class="flip-card-inner2">
 
-                    <div class="flip-card-inner">
+                            <div class="flip-card-front">
 
-                        <div class="flip-card-front">
+                                <img src="https://i1.sndcdn.com/artworks-000320657727-b9lykq-t500x500.jpg" alt="Avatar" style="width:300px;height:300px;">
 
-                            <img src="assets/images/mixtape.jpg" alt="Avatar" style="width:300px;height:300px;">
+                            </div>
 
-                        </div>
+                            <div class="flip-card-back">
 
-                        <div class="flip-card-back">
+                                <button class="music-btn" id="noclassified" onclick="toggleMusic()" style="margin-top:35%;">NOCLASSIFIED</button>
 
-                            <button class="music-btn" id="noclassified" onclick="mixTape()" style="margin-top:35%;">Johny's Mixtape</button>
+                            </div>
 
                         </div>
 
                     </div>
+                    </label>
 
-                </div>
+                <label>
+                    <div class="flip-card3" id="card-flip">
+                        <input type="checkbox" id="checkbox-three" style="display:none;" />
 
-                <div class="flip-card">
+                        <div class="flip-card-inner3">
 
-            <div class="flip-card-inner">
+                            <div class="flip-card-front">
 
-                <div class="flip-card-front">
+                                <img src="assets/images/mixtape.jpg" alt="Avatar" style="width:300px;height:300px;">
 
-                    <img src="https://i1.sndcdn.com/artworks-000212103491-o2q31j-t500x500.jpg" alt="Avatar" style="width:300px;height:300px;">
+                            </div>
 
-                </div>
+                            <div class="flip-card-back">
 
-                <div class="flip-card-back">
+                                <button class="music-btn" id="noclassified" onclick="mixTape()" style="margin-top:35%;">Johny's Mixtape</button>
 
-                    <button class="music-btn" id="noclassified" onclick="minuteMaid()" style="margin-top:35%;">Minute Maid</button>
+                            </div>
 
-                </div>
+                        </div>
 
-            </div>
+                    </div>
+                </label>
 
-        </div>
+                <label>
+                    <div class="flip-card4" id="card-flip">
+                        <input type="checkbox" id="checkbox-four" style="display:none;" />
+
+                        <div class="flip-card-inner4">
+
+                            <div class="flip-card-front">
+
+                                <img src="https://i1.sndcdn.com/artworks-000212103491-o2q31j-t500x500.jpg" alt="Avatar" style="width:300px;height:300px;">
+
+                            </div>
+
+                            <div class="flip-card-back">
+
+                                <button class="music-btn" id="noclassified" onclick="minuteMaid()" style="margin-top:35%;">Minute Maid</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </label>
 
             </div>
 
         </div>
 
     </div>
+    
 
     <div class="btn-container1">
 
@@ -459,9 +471,7 @@
                 DXNCE ft. Johny Gordon prod. NK <span style="display:block;" class="btn btn-primary">
 
                     <img onclick="playAudioXFiles()"
-
                          class="play-pause4" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioXFiles()" class="pause-play4" style="height:30px;opacity:0.8"
-
                                                                                                                    src="assets/images/pause-512.png">
 
                 </span>
@@ -499,9 +509,7 @@
                 Johnny Nascar (ft. B- SOLT, RJ) <span style="display:block;" class="btn btn-primary">
 
                     <img onclick="playAudio()"
-
                          class="play-pause" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudio()" class="pause-play" style="height:30px;opacity:0.8"
-
                                                                                                                   src="assets/images/pause-512.png">
 
                 </span>
@@ -513,9 +521,7 @@
                 Drippin in sauce (SLO) <span style="display:block;" class="btn btn-primary">
 
                     <img onclick="playAudioTwo()"
-
                          class="play-pause1" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioTwo()" class="pause-play1" style="height:30px;opacity:0.8"
-
                                                                                                                    src="assets/images/pause-512.png">
 
                 </span>
@@ -527,9 +533,7 @@
                 Hate It Or Love It <span style="display:block;" class="btn btn-primary">
 
                     <img onclick="playAudioThree()"
-
                          class="play-pause2" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioThree()" class="pause-play2" style="height:30px;opacity:0.8"
-
                                                                                                                    src="assets/images/pause-512.png">
 
                 </span>
@@ -541,9 +545,7 @@
                 Gucci Drip ft (Slo <span style="display:block;" class="btn btn-primary">
 
                     <img onclick="playAudioFour()"
-
                          class="play-pause3" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioFour()" class="pause-play3" style="height:30px;opacity:0.8"
-
                                                                                                                    src="assets/images/pause-512.png">
 
                 </span>
@@ -581,10 +583,8 @@
                 Gifted <span style="display:block;" class="btn btn-primary">
 
                     <img onclick="playAudioSix()"
-
                          class="play-pause5" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioSix()" class="pause-play5" style="height:30px;opacity:0.8"
-
-                                                                                                                  src="assets/images/pause-512.png">
+                                                                                                                   src="assets/images/pause-512.png">
 
                 </span>
 
@@ -595,9 +595,7 @@
                 Hit The Gas (ft. JAH FLAME) <span style="display:block;" class="btn btn-primary">
 
                     <img onclick="playAudioSeven()"
-
                          class="play-pause6" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioSeven()" class="pause-play6" style="height:30px;opacity:0.8"
-
                                                                                                                    src="assets/images/pause-512.png">
 
                 </span>
@@ -609,9 +607,7 @@
                 24/7 (ft SLO <span style="display:block;" class="btn btn-primary">
 
                     <img onclick="playAudioEight()"
-
                          class="play-pause7" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioEight()" class="pause-play7" style="height:30px;opacity:0.8"
-
                                                                                                                    src="assets/images/pause-512.png">
 
                 </span>
@@ -623,9 +619,7 @@
                 City On Fire SLO X Johny Gordon <span style="display:block;" class="btn btn-primary">
 
                     <img onclick="playAudioNine()"
-
                          class="play-pause8" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioNine()" class="pause-play8" style="height:30px;opacity:0.8"
-
                                                                                                                    src="assets/images/pause-512.png">
 
                 </span>
@@ -637,9 +631,7 @@
                 Bacardi and Condoms (ft. Johny Gordon) <span style="display:block;" class="btn btn-primary">
 
                     <img onclick="playAudioTen()"
-
                          class="play-pause9" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioTen()" class="pause-play9" style="height:30px;opacity:0.8"
-
                                                                                                                    src="assets/images/pause-512.png">
 
                 </span>
@@ -651,10 +643,8 @@
                 Banjo <span style="display:block;" class="btn btn-primary">
 
                     <img onclick="playAudioEleven()"
-
                          class="play-pause10" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioEleven()" class="pause-play10" style="height:30px;opacity:0.8"
-
-                                                                                                                   src="assets/images/pause-512.png">
+                                                                                                                    src="assets/images/pause-512.png">
 
                 </span>
 
@@ -665,10 +655,8 @@
                 Pop In Pop Out <span style="display:block;" class="btn btn-primary">
 
                     <img onclick="playAudioTwelve()"
-
                          class="play-pause11" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioTwelve()" class="pause-play11" style="height:30px;opacity:0.8"
-
-                                                                                                                   src="assets/images/pause-512.png">
+                                                                                                                    src="assets/images/pause-512.png">
 
                 </span>
 
@@ -679,10 +667,8 @@
                 MAGIC MOUNTAIN (ft. RJ) <span style="display:block;" class="btn btn-primary">
 
                     <img onclick="playAudioThirteen()"
-
                          class="play-pause12" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioThirteen()" class="pause-play12" style="height:30px;opacity:0.8"
-
-                                                                                                                   src="assets/images/pause-512.png">
+                                                                                                                    src="assets/images/pause-512.png">
 
                 </span>
 
@@ -718,10 +704,8 @@
                 ARE YOU READY? (T-Money) <span style="display:block;" class="btn btn-primary">
 
                     <img onclick="playAudioFourteen()"
-
                          class="play-pause13" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioFourteen()" class="pause-play13" style="height:30px;opacity:0.8"
-
-                                                                                                                  src="assets/images/pause-512.png">
+                                                                                                                    src="assets/images/pause-512.png">
 
                 </span>
 
@@ -732,10 +716,8 @@
                 Bombay (T-Money) <span style="display:block;" class="btn btn-primary">
 
                     <img onclick="playAudioFifthteen()"
-
                          class="play-pause14" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioFithteen()" class="pause-play14" style="height:30px;opacity:0.8"
-
-                                                                                                                   src="assets/images/pause-512.png">
+                                                                                                                    src="assets/images/pause-512.png">
 
                 </span>
 
@@ -746,10 +728,8 @@
                 Look at us Now (T-Money) <span style="display:block;" class="btn btn-primary">
 
                     <img onclick="playAudioSixteen()"
-
                          class="play-pause15" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioSixteen()" class="pause-play15" style="height:30px;opacity:0.8"
-
-                                                                                                                   src="assets/images/pause-512.png">
+                                                                                                                    src="assets/images/pause-512.png">
 
                 </span>
 
@@ -760,10 +740,8 @@
                 Another Day (T-Money) <span style="display:block;" class="btn btn-primary">
 
                     <img onclick="playAudioSeventeen()"
-
                          class="play-pause16" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioSeventeen()" class="pause-play16" style="height:30px;opacity:0.8"
-
-                                                                                                                   src="assets/images/pause-512.png">
+                                                                                                                    src="assets/images/pause-512.png">
 
                 </span>
 
@@ -774,10 +752,8 @@
                 Smoke to Much (T-Money) <span style="display:block;" class="btn btn-primary">
 
                     <img onclick="playAudioEighteen()"
-
                          class="play-pause17" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioEighteen()" class="pause-play17" style="height:30px;opacity:0.8"
-
-                                                                                                                   src="assets/images/pause-512.png">
+                                                                                                                    src="assets/images/pause-512.png">
 
                 </span>
 
@@ -788,10 +764,8 @@
                 Faith ft. (Kylie x T-Money) <span style="display:block;" class="btn btn-primary">
 
                     <img onclick="playAudioNineteen()"
-
                          class="play-pause18" style="height:30px;opacity:0.8" src="assets/images/play-512.png"><img onclick="pauseAudioNineteen()" class="pause-play18" style="height:30px;opacity:0.8"
-
-                                                                                                                   src="assets/images/pause-512.png">
+                                                                                                                    src="assets/images/pause-512.png">
 
                 </span>
 
@@ -802,7 +776,6 @@
     </section>
 
     <!-- Optional JavaScript -->
-
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
