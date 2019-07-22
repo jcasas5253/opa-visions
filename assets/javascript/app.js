@@ -4,10 +4,12 @@ console.log("created by Jacob Casas");
 function touchScreen() {
     if ("ontouchstart" in document.documentElement) {
         $('.flip-card').hover(function() {
-            $('.flip-card').css("transform", "rotateY(0deg)");
+            $('.flip-card').css("transform", "rotateY(0deg)!important");
+            $('.flip-card-inner').css("transfomr", "rotateY(0deg)!important");
         })
         $('.flip-card').click(function() {
-            $('.flip-card').css("transform", "rotateY(180deg");
+            $('.flip-card').css("transform", "rotateY(180deg)!important");
+            $('.flip-card-inner').css("transform", "rotateY(108deg)!important")
         })
     }
     else {
