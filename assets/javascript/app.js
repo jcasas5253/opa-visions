@@ -16,6 +16,16 @@ function touchScreen() {
 }
 touchScreen();
 
+function test() {
+    if ("ontouchstart" in document.documentElement) {
+        document.write("your device is a touch screen device.");
+    }
+    else {
+        document.write("your device is NOT a touch device");
+    }
+}
+test();
+
  
 
 function toggleMusic() {
