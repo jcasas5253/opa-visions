@@ -21,6 +21,8 @@ audio {
 }
 .nav-link {
     color: white !important;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .navbar-toggler {
     background-color: rgb(231, 111, 12) !important;
@@ -188,6 +190,9 @@ button:hover:after {
     #album-container {
         padding-right: 0 !important;
         padding-left: 0 !important;
+    }
+    .icon-bar {
+        display: none !important;
     }
 }
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
