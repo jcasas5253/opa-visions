@@ -468,3 +468,20 @@ progress[value]::-webkit-progress-value {
     background-color: rgb(231, 111, 12);
     height: 50%;
 }
+.music-player::-webkit-scrollbar {
+    width: 10px;
+    /*background-color: #fbfbfb; */
+}
+
+.music-player::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px grey;
+    background-color: black;
+    border-radius: 4px;
+}
+
+.music-player::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.5);
+    background-color: rgb(231, 111, 12);
+    height: 50%;
+}
