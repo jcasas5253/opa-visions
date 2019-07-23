@@ -1,39 +1,424 @@
 console.log("created by Jacob Casas");
 
+$('#audio1').on('timeupdate', function() {
+  $('#seekbar').attr("value", this.currentTime / this.duration);
+})
+
+$('#audio2').on('timeupdate', function() {
+  $('#seekbar2').attr("value", this.currentTime / this.duration);
+})
+
+$('#audio3').on('timeupdate', function() {
+  $('#seekbar2').attr("value", this.currentTime / this.duration);
+})
+
+$('#audio4').on('timeupdate', function() {
+  $('#seekbar2').attr("value", this.currentTime / this.duration);
+})
+
+$('#audio5').on('timeupdate', function() {
+  $('#seekbar2').attr("value", this.currentTime / this.duration);
+})
+
+$('#audio6').on('timeupdate', function() {
+  $('#seekbar3').attr("value", this.currentTime / this.duration);
+})
+
+$('#audio7').on('timeupdate', function() {
+  $('#seekbar3').attr("value", this.currentTime / this.duration);
+})
+
+$('#audio8').on('timeupdate', function() {
+  $('#seekbar3').attr("value", this.currentTime / this.duration);
+})
+
+$('#audio9').on('timeupdate', function() {
+  $('#seekbar3').attr("value", this.currentTime / this.duration);
+})
+
+$('#audio10').on('timeupdate', function() {
+  $('#seekbar3').attr("value", this.currentTime / this.duration);
+})
+
+$('#audio11').on('timeupdate', function() {
+  $('#seekbar3').attr("value", this.currentTime / this.duration);
+})
+
+$('#audio12').on('timeupdate', function() {
+  $('#seekbar3').attr("value", this.currentTime / this.duration);
+})
+
+$('#audio13').on('timeupdate', function() {
+  $('#seekbar3').attr("value", this.currentTime / this.duration);
+})
+
+$('#audio14').on('timeupdate', function() {
+  $('#seekbar4').attr("value", this.currentTime / this.duration);
+})
+
+$('#audio15').on('timeupdate', function() {
+  $('#seekbar4').attr("value", this.currentTime / this.duration);
+})
+
+$('#audio16').on('timeupdate', function() {
+  $('#seekbar4').attr("value", this.currentTime / this.duration);
+})
+
+$('#audio17').on('timeupdate', function() {
+  $('#seekbar4').attr("value", this.currentTime / this.duration);
+})
+
+$('#audio18').on('timeupdate', function() {
+  $('#seekbar4').attr("value", this.currentTime / this.duration);
+})
+
+$('#audio19').on('timeupdate', function() {
+  $('#seekbar4').attr("value", this.currentTime / this.duration);
+})
+
+
+function skipForward() {
+  var myAudio = document.getElementById("audio1");
+  var oAudio = document.getElementById('audio1');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime += 5.0;
+  }
+}
+
+function skipkBack() {
+  var myAudio = document.getElementById("audio1");
+  var oAudio = document.getElementById('audio1');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime -= 5.0;
+  }
+}
+
+function skipForward2() {
+  var myAudio = document.getElementById("audio2");
+  var oAudio = document.getElementById('audio2');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime += 5.0;
+  }
+}
+
+function skipkBack2() {
+  var myAudio = document.getElementById("audio2");
+  var oAudio = document.getElementById('audio2');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime -= 5.0;
+  }
+}
+
+function skipForward3() {
+  var myAudio = document.getElementById("audio3");
+  var oAudio = document.getElementById('audio3');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime += 5.0;
+  }
+}
+
+function skipkBack3() {
+  var myAudio = document.getElementById("audio3");
+  var oAudio = document.getElementById('audio3');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime -= 5.0;
+  }
+}
+
+function skipForward4() {
+  var myAudio = document.getElementById("audio4");
+  var oAudio = document.getElementById('audio4');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime += 5.0;
+  }
+}
+
+function skipkBack4() {
+  var myAudio = document.getElementById("audio4");
+  var oAudio = document.getElementById('audio4');
+  if (myAudio.duration > 0 && !myAudio.paused) { 
+  oAudio.currentTime -= 5.0;
+  }
+}
+
+function skipForward5() {
+  var myAudio = document.getElementById("audio5");
+  var oAudio = document.getElementById('audio5');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime += 5.0;
+  }
+}
+
+function skipkBack5() {
+  var myAudio = document.getElementById("audio5");
+  var oAudio = document.getElementById('audio5');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime -= 5.0;
+  }
+}
+
+function skipForward6() {
+  var myAudio = document.getElementById("audio6");
+  var oAudio = document.getElementById('audio6');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime += 5.0;
+  }
+}
+
+function skipkBack6() {
+  var myAudio = document.getElementById("audio6");
+  var oAudio = document.getElementById('audio6');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime -= 5.0;
+  }
+}
+
+function skipForward7() {
+  var myAudio = document.getElementById("audio7");
+  var oAudio = document.getElementById('audio7');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime += 5.0;
+  }
+}
+
+function skipkBack7() {
+  var myAudio = document.getElementById("audio7");
+  var oAudio = document.getElementById('audio7');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime -= 5.0;
+  }
+}
+
+function skipForward8() {
+  var myAudio = document.getElementById("audio8");
+  var oAudio = document.getElementById('audio8');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime += 5.0;
+  }
+}
+
+function skipkBack8() {
+  var myAudio = document.getElementById("audio8");
+  var oAudio = document.getElementById('audio8');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime -= 5.0;
+  }
+}
+
+function skipForward9() {
+  var myAudio = document.getElementById("audio9");
+  var oAudio = document.getElementById('audio9');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime += 5.0;
+  }
+}
+
+function skipkBack9() {
+  var myAudio = document.getElementById("audio9");
+  var oAudio = document.getElementById('audio9');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime -= 5.0;
+  }
+}
+
+function skipForward10() {
+  var myAudio = document.getElementById("audio10");
+  var oAudio = document.getElementById('audio10');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime += 5.0;
+  }
+}
+
+function skipkBack10() {
+  var myAudio = document.getElementById("audio10");
+  var oAudio = document.getElementById('audio10');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime -= 5.0;
+  }
+}
+
+function skipForward11() {
+  var myAudio = document.getElementById("audio11");
+  var oAudio = document.getElementById('audio11');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime += 5.0;
+  }
+}
+
+function skipkBack11() {
+  var myAudio = document.getElementById("audio11");
+  var oAudio = document.getElementById('audio11');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime -= 5.0;
+  }
+}
+
+function skipForward12() {
+  var myAudio = document.getElementById("audio12");
+  var oAudio = document.getElementById('audio12');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime += 5.0;
+  }
+}
+
+function skipkBack12() {
+  var myAudio = document.getElementById("audio12");
+  var oAudio = document.getElementById('audio12');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime -= 5.0;
+  }
+}
+
+function skipForward13() {
+  var myAudio = document.getElementById("audio13");
+  var oAudio = document.getElementById('audio13');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime += 5.0;
+  }
+}
+
+function skipkBack13() {
+  var myAudio = document.getElementById("audio13");
+  var oAudio = document.getElementById('audio13');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime -= 5.0;
+  }
+}
+
+function skipForward14() {
+  var myAudio = document.getElementById("audio14");
+  var oAudio = document.getElementById('audio14');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime += 5.0;
+  }
+}
+
+function skipkBack14() {
+  var myAudio = document.getElementById("audio14");
+  var oAudio = document.getElementById('audio14');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime -= 5.0;
+  }
+}
+
+function skipForward15() {
+  var myAudio = document.getElementById("audio15");
+  var oAudio = document.getElementById('audio15');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime += 5.0;
+  }
+}
+
+function skipkBack15() {
+  var myAudio = document.getElementById("audio15");
+  var oAudio = document.getElementById('audio15');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime -= 5.0;
+  }
+}
+
+function skipForward16() {
+  var myAudio = document.getElementById("audio16");
+  var oAudio = document.getElementById('audio16');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime += 5.0;
+  }
+}
+
+function skipkBack16() {
+  var myAudio = document.getElementById("audio16");
+  var oAudio = document.getElementById('audio16');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime -= 5.0;
+  }
+}
+
+function skipForward17() {
+  var myAudio = document.getElementById("audio17");
+  var oAudio = document.getElementById('audio17');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime += 5.0;
+  }
+}
+
+function skipkBack17() {
+  var myAudio = document.getElementById("audio17");
+  var oAudio = document.getElementById('audio17');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime -= 5.0;
+  }
+}
+
+function skipForward18() {
+  var myAudio = document.getElementById("audio18");
+  var oAudio = document.getElementById('audio18');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime += 5.0;
+  }
+}
+
+function skipkBack18() {
+  var myAudio = document.getElementById("audio18");
+  var oAudio = document.getElementById('audio18');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime -= 5.0;
+  }
+}
+
+function skipForward19() {
+  var myAudio = document.getElementById("audio19");
+  var oAudio = document.getElementById('audio19');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime += 5.0;
+  }
+}
+
+function skipkBack19() {
+  var myAudio = document.getElementById("audio19");
+  var oAudio = document.getElementById('audio19');
+  if (myAudio.duration > 0 && !myAudio.paused) {
+  oAudio.currentTime -= 5.0;
+  }
+}
+
     $('#checkbox-one').click(function () {
-        if ($(this).is(":checked")) {
-            $('.flip-card1 .flip-card-inner1').css("transform", "rotateY(180deg)");
-        }
-        else if (!$('#checkbox-one').is(":checked")) {
-            $('.flip-card1 .flip-card-inner1').css("transform", "rotateY(360deg)")
-        }
+       // if ($(this).is(":checked")) {
+           // $('.flip-card1 .flip-card-inner1').css("transform", "rotateY(180deg)");
+           xFiles();
+       // }
+        //else if (!$('#checkbox-one').is(":checked")) {
+           // $('.flip-card1 .flip-card-inner1').css("transform", "rotateY(360deg)")
+        //}
     })
 
 $('#checkbox-two').click(function () {
-    if ($(this).is(":checked")) {
-        $('.flip-card2 .flip-card-inner2').css("transform", "rotateY(180deg)");
-    }
-    else if (!$('#checkbox-one').is(":checked")) {
-        $('.flip-card2 .flip-card-inner2').css("transform", "rotateY(360deg)")
-    }
+    //if ($(this).is(":checked")) {
+        //$('.flip-card2 .flip-card-inner2').css("transform", "rotateY(180deg)");
+        toggleMusic();
+   // }
+   // else if (!$('#checkbox-one').is(":checked")) {
+       // $('.flip-card2 .flip-card-inner2').css("transform", "rotateY(360deg)")
+    //}
 })
 
 $('#checkbox-three').click(function () {
-    if ($(this).is(":checked")) {
-        $('.flip-card3 .flip-card-inner3').css("transform", "rotateY(180deg)");
-    }
-    else if (!$('#checkbox-one').is(":checked")) {
-        $('.flip-card3 .flip-card-inner3').css("transform", "rotateY(360deg)")
-    }
+   // if ($(this).is(":checked")) {
+       // $('.flip-card3 .flip-card-inner3').css("transform", "rotateY(180deg)");
+        mixTape();
+    //}
+   // else if (!$('#checkbox-one').is(":checked")) {
+        //$('.flip-card3 .flip-card-inner3').css("transform", "rotateY(360deg)")
+   // }
 })
 
 $('#checkbox-four').click(function () {
-    if ($(this).is(":checked")) {
-        $('.flip-card4 .flip-card-inner4').css("transform", "rotateY(180deg)");
-    }
-    else if (!$('#checkbox-one').is(":checked")) {
-        $('.flip-card4 .flip-card-inner4').css("transform", "rotateY(360deg)")
-    }
+    //if ($(this).is(":checked")) {
+     //   $('.flip-card4 .flip-card-inner4').css("transform", "rotateY(180deg)");
+        minuteMaid();
+   // }
+   // else if (!$('#checkbox-one').is(":checked")) {
+       // $('.flip-card4 .flip-card-inner4').css("transform", "rotateY(360deg)")
+   // }
 })
 
 if ("ontouchstart" in document.documentElement) {

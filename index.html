@@ -42,17 +42,17 @@
 
                     <li class="nav-item active">
 
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">Photo Gallery <span class="sr-only">(current)</span></a>
 
                     </li>
 
                     <li class="nav-item">
 
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Music Videos</a>
 
                     </li>
 
-                    <li class="nav-item dropdown">
+                  <!--  <li class="nav-item dropdown">
 
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 
@@ -82,7 +82,7 @@
 
                 </ul>
 
-            </div>
+            </div> -->
 
         </nav>
 
@@ -455,14 +455,21 @@
             <div id="songpro1" class="inlineblo"></div>
 
             <div id="forward" class="inlineblo"><img style="height:58px" src="assets/images/skippy2.png" /></div>
+            
+            </div>
 
             <h1 style="font-weight:bold;">Johny Gordon</h1>
 
             <h2 style="font-weight:bold;">THE X FILES</h2>
+            <div class=row>
+            <div onclick="skipkBack()" id="back-skip" class="skip-back" style="margin-left:48px;"><img style="height:33px;margin-left:4px;margin-top:2px;" src="assets/images/back-arrow.png" /></div>
+            <div onclick="skipForward();" id="forward-skip" class="skip-forward" style="margin-left:auto;margin-right:48px;"><img src="assets/images/forward-arrow.png"style="height:33px;margin-left:4px;margin-top:2px;"/></div>
+        </div>
+
 
         </div>
 
-        <progress max="100" value="80"></progress>
+        <progress id="seekbar" value="0" max="1" style="width:100%;"></progress>
 
         <ol class="music-player">
 
@@ -497,10 +504,13 @@
             <h1 style="font-weight:bold;">Johny Gordon</h1>
 
             <h2 style="font-weight:bold;">NOCLASSIFIED</h2>
+            <div class=row>
+                    <div onclick="skipkBack2(),skipkBack3(),skipkBack4(),skipkBack5()" id="back-skip" class="skip-back" style="margin-left:48px;"><img style="height:33px;margin-left:4px;margin-top:2px;" src="assets/images/back-arrow.png" /></div>
+                    <div onclick="skipForward2(),skipForward3();skipForward4(),skipForward5()" id="forward-skip" class="skip-forward" style="margin-left:auto;margin-right:48px;"><img src="assets/images/forward-arrow.png"style="height:33px;margin-left:4px;margin-top:2px;"/></div>
 
         </div>
 
-        <progress max="100" value="80"></progress>
+        <progress id="seekbar2" value="0" max="1" style="width:100%;"></progress>
 
         <ol class="music-player">
 
@@ -571,10 +581,13 @@
             <h1 style="font-weight:bold;">Johny Gordon</h1>
 
             <h2 style="font-weight:bold;">Johny's Mixtape</h2>
+            <div class=row>
+                    <div onclick="skipkBack6(),skipkBack7(),skipkBack8(),skipkBack9(),skipkBack10(),skipkBack11(),skipkBack12(),skipkBack13()" id="back-skip" class="skip-back" style="margin-left:48px;"><img style="height:33px;margin-left:4px;margin-top:2px;" src="assets/images/back-arrow.png" /></div>
+                    <div onclick="skipForward6(),skipForward7(),skipForward8(),skipForward9(),skipForward10(),skipForward11(),skipForward12(),skipForward13()" id="forward-skip" class="skip-forward" style="margin-left:auto;margin-right:48px;"><img src="assets/images/forward-arrow.png"style="height:33px;margin-left:4px;margin-top:2px;"/></div>
 
         </div>
 
-        <progress max="100" value="80"></progress>
+        <progress id="seekbar3" value="0" max="1" style="width:100%;"></progress>
 
         <ol class="music-player">
 
@@ -692,10 +705,13 @@
             <h1 style="font-weight:bold;">Johny Gordon</h1>
 
             <h2 style="font-weight:bold;">Minute Maid</h2>
+            <div class=row>
+                    <div onclick="skipkBack14(),skipkBack15(),skipkBack16(),skipkBack17(),skipkBack18(),skipkBack19()" id="back-skip" class="skip-back" style="margin-left:48px;"><img style="height:33px;margin-left:4px;margin-top:2px;" src="assets/images/back-arrow.png" /></div>
+                    <div onclick="skipForward14(),skipForward15(),skipForward16(),skipForward17(),skipForward18(),skipForward19()" id="forward-skip" class="skip-forward" style="margin-left:auto;margin-right:48px;"><img src="assets/images/forward-arrow.png"style="height:33px;margin-left:4px;margin-top:2px;"/></div>
 
         </div>
 
-        <progress max="100" value="80"></progress>
+        <progress id="seekbar4" value="0" max="1" style="width:100%;"></progress>
 
         <ol class="music-player">
 
