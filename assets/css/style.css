@@ -23,6 +23,7 @@ audio {
     color: white !important;
     margin-right: 10px;
     margin-left: 10px;
+    font-weight: bold;
 }
 .navbar-toggler {
     background-color: rgb(231, 111, 12) !important;
