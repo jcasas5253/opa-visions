@@ -403,14 +403,9 @@ $('.flip-card4').click(function () {
 
 // Style.Display Elements
 function toggleMusic() {
-    var x = document.getElementById("playstation");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-        document.getElementById("container-btn").style.display = "none";
-        document.getElementById("album-new").style.display = "initial";
-    } else {
-        x.style.display = "none";
-    }
+    document.getElementById('playstation').style.display = "block";
+    document.getElementById('container-btn').style.display = "none";
+    document.getElementById("album-new").style.display = "initial";
 }
 
 function xFiles() {
