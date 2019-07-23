@@ -1,7 +1,7 @@
 // Credit
 console.log("created by Jacob Casas");
 
-// Musiv Progress bar update
+// Music Progress bar update
 $('#audio1').on('timeupdate', function () {
     $('#seekbar').attr("value", this.currentTime / this.duration);
 })
