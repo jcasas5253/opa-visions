@@ -176,7 +176,7 @@ button:hover:after {
     #playstation1,
     #playstation2,
     #playstation3 {
-        width: 102% !important;
+        width: 100% !important;
     }
 }
 @media only screen and (max-width: 992px) {
