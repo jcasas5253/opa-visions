@@ -229,8 +229,9 @@ button:hover:after {
         border-radius: 20px;
         width: 400px;
         border: 1px solid #c1c1c1;
-        overflow: auto;
+        overflow-y: auto;
         margin: 5px auto;
+        overflow-x: hidden;
     }
 
     #controlpanel {
