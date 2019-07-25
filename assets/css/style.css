@@ -205,6 +205,31 @@ button:hover:after {
         color: black !important;
     }
 }
+
+@media only screen and (max-width: 925px) {
+    .bio-text {
+        position: absolute;
+    top: 0px;
+    right: 55px !important;
+    color: black;
+    font-weight: bold;
+    }
+}
+
+@media only screen and (max-width: 795px) {
+    .bio-text {
+        position: relative !important;
+    top: 0px;
+    right: 0px !important;
+    color: black;
+    font-weight: bold;
+    margin-left: 70px;
+    }
+    .card {
+        margin-left: 25px;
+    }
+}
+
 @media only screen and (max-width: 420px) {
     #playstation, #playstation1, #playstation2, #playstation3 {
         width: 100% !important;
