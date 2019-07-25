@@ -201,6 +201,8 @@ button:hover:after {
         border-bottom-color: black;
         margin: 0;
         text-align: center;
+        background-color: #fff;
+        color: black !important;
     }
 }
 @media only screen and (max-width: 420px) {
