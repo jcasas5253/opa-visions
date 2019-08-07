@@ -2,6 +2,7 @@ body {
     background: url("../../assets/images/background.JPG") no-repeat center center fixed;
     background-size: cover;
     font-family: 'Prompt', sans-serif;
+    overflow-x: hidden;
 }
 h2 {
     color: purple;
@@ -203,6 +204,10 @@ button:hover:after {
         text-align: center;
         background-color: #fff;
         color: black !important;
+    }
+    .txt-bio {
+        width: 100% !important;
+        margin-left: 0 !important;
     }
 }
 
