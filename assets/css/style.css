@@ -498,6 +498,12 @@ button:hover:after {
         margin-right: auto;
         margin-left: auto;
     }
+    .flip-card1:hover,
+    .flip-card2:hover,
+    .flip-card3:hover,
+    .flip-card4:hover {
+        opacity: 0.8;
+    }
 
     .flip-card-inner1,
     .flip-card-inner2,
