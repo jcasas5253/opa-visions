@@ -164,6 +164,9 @@ button:hover:after {
 .title {
     text-align: center;
 }
+iframe {
+    margin-bottom: 20px;
+}
 @media only screen and (max-width: 760px) {
     .media-container,
     h2,
@@ -231,6 +234,10 @@ button:hover:after {
     }
     .card {
         margin-left: 25px;
+    }
+    iframe {
+        width: auto !important;
+        height: auto !important;
     }
 }
 
