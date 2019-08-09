@@ -151,14 +151,42 @@ button:hover:after {
 .play-pause1:hover,
 .play-pause2:hover,
 .play-pause3:hover,
-.play-pause4:hover {
+.play-pause4:hover,
+.play-pause5:hover,
+.play-pause6:hover,
+.play-pause7:hover,
+.play-pause8:hover,
+.play-pause9:hover,
+.play-pause10:hover,
+.play-pause11:hover,
+.play-pause12:hover,
+.play-pause13:hover,
+.play-pause14:hover,
+.play-pause15:hover,
+.play-pause16:hover,
+.play-pause17:hover,
+.play-pause18:hover {
     opacity: 1 !important;
 }
 .pause-play:hover,
 .pause-play1:hover,
 .pause-play2:hover,
 .pause-play3:hover,
-.pause-play4:hover {
+.pause-play4:hover,
+.pause-play5:hover,
+.pause-play6:hover,
+.pause-play7:hover,
+.pause-play8:hover,
+.pause-play9:hover,
+.pause-play10:hover,
+.pause-play11:hover,
+.pause-play12:hover,
+.pause-play13:hover,
+.pause-play14:hover,
+.pause-play15:hover,
+.pause-play16:hover,
+.pause-play17:hover,
+.pause-play18:hover {
     opacity: 1 !important;
 }
 .title {
