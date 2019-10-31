@@ -79,39 +79,39 @@ $('#audio19').on('timeupdate', function () {
 })
 
 $('#audio20').on('timeupdate', function () {
-    $('#seekbar5').attr("value", this.currentTime / this.duration);
+    $('#seekbar6').attr("value", this.currentTime / this.duration);
 })
 
 $('#audio21').on('timeupdate', function () {
-    $('#seekbar5').attr("value", this.currentTime / this.duration);
+    $('#seekbar6').attr("value", this.currentTime / this.duration);
 })
 
 $('#audio22').on('timeupdate', function () {
-    $('#seekbar5').attr("value", this.currentTime / this.duration);
+    $('#seekbar6').attr("value", this.currentTime / this.duration);
 })
 
 $('#audio23').on('timeupdate', function () {
-    $('#seekbar5').attr("value", this.currentTime / this.duration);
+    $('#seekbar6').attr("value", this.currentTime / this.duration);
 })
 
 $('#audio24').on('timeupdate', function () {
-    $('#seekbar5').attr("value", this.currentTime / this.duration);
+    $('#seekbar6').attr("value", this.currentTime / this.duration);
 })
 
 $('#audio25').on('timeupdate', function () {
-    $('#seekbar5').attr("value", this.currentTime / this.duration);
+    $('#seekbar6').attr("value", this.currentTime / this.duration);
 })
 
 $('#audio26').on('timeupdate', function () {
-    $('#seekbar5').attr("value", this.currentTime / this.duration);
+    $('#seekbar6').attr("value", this.currentTime / this.duration);
 })
 
 $('#audio27').on('timeupdate', function () {
-    $('#seekbar5').attr("value", this.currentTime / this.duration);
+    $('#seekbar6').attr("value", this.currentTime / this.duration);
 })
 
 $('#audio28').on('timeupdate', function () {
-    $('#seekbar5').attr("value", this.currentTime / this.duration);
+    $('#seekbar6').attr("value", this.currentTime / this.duration);
 })
 
 
@@ -415,6 +415,150 @@ function skipForward19() {
 function skipkBack19() {
     var myAudio = document.getElementById("audio19");
     var oAudio = document.getElementById('audio19');
+    if (myAudio.duration > 0 && !myAudio.paused) {
+        oAudio.currentTime -= 5.0;
+    }
+}
+
+function skipForward20() {
+    var myAudio = document.getElementById("audio20");
+    var oAudio = document.getElementById('audio20');
+    if (myAudio.duration > 0 && !myAudio.paused) {
+        oAudio.currentTime += 5.0;
+    }
+}
+
+function skipkBack20() {
+    var myAudio = document.getElementById("audio20");
+    var oAudio = document.getElementById('audio20');
+    if (myAudio.duration > 0 && !myAudio.paused) {
+        oAudio.currentTime -= 5.0;
+    }
+}
+
+function skipForward21() {
+    var myAudio = document.getElementById("audio21");
+    var oAudio = document.getElementById('audio21');
+    if (myAudio.duration > 0 && !myAudio.paused) {
+        oAudio.currentTime += 5.0;
+    }
+}
+
+function skipkBack21() {
+    var myAudio = document.getElementById("audio21");
+    var oAudio = document.getElementById('audio21');
+    if (myAudio.duration > 0 && !myAudio.paused) {
+        oAudio.currentTime -= 5.0;
+    }
+}
+
+function skipForward22() {
+    var myAudio = document.getElementById("audio22");
+    var oAudio = document.getElementById('audio22');
+    if (myAudio.duration > 0 && !myAudio.paused) {
+        oAudio.currentTime += 5.0;
+    }
+}
+
+function skipkBack22() {
+    var myAudio = document.getElementById("audio22");
+    var oAudio = document.getElementById('audio22');
+    if (myAudio.duration > 0 && !myAudio.paused) {
+        oAudio.currentTime -= 5.0;
+    }
+}
+
+function skipForward23() {
+    var myAudio = document.getElementById("audio23");
+    var oAudio = document.getElementById('audio23');
+    if (myAudio.duration > 0 && !myAudio.paused) {
+        oAudio.currentTime += 5.0;
+    }
+}
+
+function skipkBack23() {
+    var myAudio = document.getElementById("audio23");
+    var oAudio = document.getElementById('audio23');
+    if (myAudio.duration > 0 && !myAudio.paused) {
+        oAudio.currentTime -= 5.0;
+    }
+}
+
+function skipForward24() {
+    var myAudio = document.getElementById("audio24");
+    var oAudio = document.getElementById('audio24');
+    if (myAudio.duration > 0 && !myAudio.paused) {
+        oAudio.currentTime += 5.0;
+    }
+}
+
+function skipkBack24() {
+    var myAudio = document.getElementById("audio24");
+    var oAudio = document.getElementById('audio24');
+    if (myAudio.duration > 0 && !myAudio.paused) {
+        oAudio.currentTime -= 5.0;
+    }
+}
+
+function skipForward25() {
+    var myAudio = document.getElementById("audio25");
+    var oAudio = document.getElementById('audio25');
+    if (myAudio.duration > 0 && !myAudio.paused) {
+        oAudio.currentTime += 5.0;
+    }
+}
+
+function skipkBack25() {
+    var myAudio = document.getElementById("audio25");
+    var oAudio = document.getElementById('audio25');
+    if (myAudio.duration > 0 && !myAudio.paused) {
+        oAudio.currentTime -= 5.0;
+    }
+}
+
+function skipForward26() {
+    var myAudio = document.getElementById("audio26");
+    var oAudio = document.getElementById('audio26');
+    if (myAudio.duration > 0 && !myAudio.paused) {
+        oAudio.currentTime += 5.0;
+    }
+}
+
+function skipkBack26() {
+    var myAudio = document.getElementById("audio26");
+    var oAudio = document.getElementById('audio26');
+    if (myAudio.duration > 0 && !myAudio.paused) {
+        oAudio.currentTime -= 5.0;
+    }
+}
+
+function skipForward27() {
+    var myAudio = document.getElementById("audio27");
+    var oAudio = document.getElementById('audio27');
+    if (myAudio.duration > 0 && !myAudio.paused) {
+        oAudio.currentTime += 5.0;
+    }
+}
+
+function skipkBack27() {
+    var myAudio = document.getElementById("audio27");
+    var oAudio = document.getElementById('audio27');
+    if (myAudio.duration > 0 && !myAudio.paused) {
+        oAudio.currentTime -= 5.0;
+    }
+}
+
+function skipForward28() {
+    var myAudio = document.getElementById("audio28");
+    var oAudio = document.getElementById('audio28');
+    if (myAudio.duration > 0 && !myAudio.paused) {
+        oAudio.currentTime += 5.0;
+    }
+}
+
+function skipkBack28() {
+    var myAudio = document.getElementById("audio28");
+    var oAudio = document.getElementById('audio28');
     if (myAudio.duration > 0 && !myAudio.paused) {
         oAudio.currentTime -= 5.0;
     }
@@ -1494,6 +1638,239 @@ function pauseAudioNineteen() {
     $('.play-pause18').css("border", "none");
 }
 
+function pauseAudio20() {
+    var myAudio = document.getElementById('audio20');
+    myAudio.pause();
+    $('.pause-play19').css("border-style", "solid");
+    $('.pause-play19').css("border-width", "2px");
+    $('.pause-play19').css("border-color", "yellow");
+    $('.pause-play19').css("border-radius", "25px");
+    $('.pause-play20').css("border", "none");
+    $('.pause-play21').css("border", "none");
+    $('.pause-play22').css("border", "none");
+    $('.pause-play23').css("border", "none");
+    $('.pause-play24').css("border", "none");
+    $('.pause-play25').css("border", "none");
+    $('.pause-play26').css("border", "none");
+    $('.pause-play27').css("border", "none")
+    $('.play-pause19').css("border", "none");
+    $('.play-pause20').css("border", "none");
+    $('.play-pause21').css("border", "none");
+    $('.play-pause22').css("border", "none");
+    $('.play-pause23').css("border", "none");
+    $('.play-pause24').css("border", "none");
+    $('.play-pause25').css("border", "none");
+    $('.play-pause26').css("border", "none");
+    $('.play-pause27').css("border", "none");
+}
+
+function pauseAudio21() {
+    var myAudio = document.getElementById('audio21');
+    myAudio.pause();
+    $('.pause-play20').css("border-style", "solid");
+    $('.pause-play20').css("border-width", "2px");
+    $('.pause-play20').css("border-color", "yellow");
+    $('.pause-play20').css("border-radius", "25px");
+    $('.pause-play19').css("border", "none");
+    $('.pause-play21').css("border", "none");
+    $('.pause-play22').css("border", "none");
+    $('.pause-play23').css("border", "none");
+    $('.pause-play24').css("border", "none");
+    $('.pause-play25').css("border", "none");
+    $('.pause-play26').css("border", "none");
+    $('.pause-play27').css("border", "none")
+    $('.play-pause19').css("border", "none");
+    $('.play-pause20').css("border", "none");
+    $('.play-pause21').css("border", "none");
+    $('.play-pause22').css("border", "none");
+    $('.play-pause23').css("border", "none");
+    $('.play-pause24').css("border", "none");
+    $('.play-pause25').css("border", "none");
+    $('.play-pause26').css("border", "none");
+    $('.play-pause27').css("border", "none");
+}
+
+function pauseAudio22() {
+    var myAudio = document.getElementById('audio22');
+    myAudio.pause();
+    $('.pause-play21').css("border-style", "solid");
+    $('.pause-play21').css("border-width", "2px");
+    $('.pause-play21').css("border-color", "yellow");
+    $('.pause-play21').css("border-radius", "25px");
+    $('.pause-play19').css("border", "none");
+    $('.pause-play20').css("border", "none");
+    $('.pause-play22').css("border", "none");
+    $('.pause-play23').css("border", "none");
+    $('.pause-play24').css("border", "none");
+    $('.pause-play25').css("border", "none");
+    $('.pause-play26').css("border", "none");
+    $('.pause-play27').css("border", "none")
+    $('.play-pause19').css("border", "none");
+    $('.play-pause20').css("border", "none");
+    $('.play-pause21').css("border", "none");
+    $('.play-pause22').css("border", "none");
+    $('.play-pause23').css("border", "none");
+    $('.play-pause24').css("border", "none");
+    $('.play-pause25').css("border", "none");
+    $('.play-pause26').css("border", "none");
+    $('.play-pause27').css("border", "none");
+}
+
+function pauseAudio23() {
+    var myAudio = document.getElementById('audio23');
+    myAudio.pause();
+    $('.pause-play22').css("border-style", "solid");
+    $('.pause-play22').css("border-width", "2px");
+    $('.pause-play22').css("border-color", "yellow");
+    $('.pause-play22').css("border-radius", "25px");
+    $('.pause-play19').css("border", "none");
+    $('.pause-play20').css("border", "none");
+    $('.pause-play21').css("border", "none");
+    $('.pause-play23').css("border", "none");
+    $('.pause-play24').css("border", "none");
+    $('.pause-play25').css("border", "none");
+    $('.pause-play26').css("border", "none");
+    $('.pause-play27').css("border", "none")
+    $('.play-pause19').css("border", "none");
+    $('.play-pause20').css("border", "none");
+    $('.play-pause21').css("border", "none");
+    $('.play-pause22').css("border", "none");
+    $('.play-pause23').css("border", "none");
+    $('.play-pause24').css("border", "none");
+    $('.play-pause25').css("border", "none");
+    $('.play-pause26').css("border", "none");
+    $('.play-pause27').css("border", "none");
+}
+
+function pauseAudio24() {
+    var myAudio = document.getElementById('audio24');
+    myAudio.pause();
+    $('.pause-play23').css("border-style", "solid");
+    $('.pause-play23').css("border-width", "2px");
+    $('.pause-play23').css("border-color", "yellow");
+    $('.pause-play23').css("border-radius", "25px");
+    $('.pause-play19').css("border", "none");
+    $('.pause-play20').css("border", "none");
+    $('.pause-play21').css("border", "none");
+    $('.pause-play22').css("border", "none");
+    $('.pause-play24').css("border", "none");
+    $('.pause-play25').css("border", "none");
+    $('.pause-play26').css("border", "none");
+    $('.pause-play27').css("border", "none")
+    $('.play-pause19').css("border", "none");
+    $('.play-pause20').css("border", "none");
+    $('.play-pause21').css("border", "none");
+    $('.play-pause22').css("border", "none");
+    $('.play-pause23').css("border", "none");
+    $('.play-pause24').css("border", "none");
+    $('.play-pause25').css("border", "none");
+    $('.play-pause26').css("border", "none");
+    $('.play-pause27').css("border", "none");
+}
+
+function pauseAudio25() {
+    var myAudio = document.getElementById('audio25');
+    myAudio.pause();
+    $('.pause-play24').css("border-style", "solid");
+    $('.pause-play24').css("border-width", "2px");
+    $('.pause-play24').css("border-color", "yellow");
+    $('.pause-play24').css("border-radius", "25px");
+    $('.pause-play19').css("border", "none");
+    $('.pause-play20').css("border", "none");
+    $('.pause-play21').css("border", "none");
+    $('.pause-play22').css("border", "none");
+    $('.pause-play23').css("border", "none");
+    $('.pause-play25').css("border", "none");
+    $('.pause-play26').css("border", "none");
+    $('.pause-play27').css("border", "none")
+    $('.play-pause19').css("border", "none");
+    $('.play-pause20').css("border", "none");
+    $('.play-pause21').css("border", "none");
+    $('.play-pause22').css("border", "none");
+    $('.play-pause23').css("border", "none");
+    $('.play-pause24').css("border", "none");
+    $('.play-pause25').css("border", "none");
+    $('.play-pause26').css("border", "none");
+    $('.play-pause27').css("border", "none");
+}
+
+function pauseAudio26() {
+    var myAudio = document.getElementById('audio26');
+    myAudio.pause();
+    $('.pause-play25').css("border-style", "solid");
+    $('.pause-play25').css("border-width", "2px");
+    $('.pause-play25').css("border-color", "yellow");
+    $('.pause-play25').css("border-radius", "25px");
+    $('.pause-play19').css("border", "none");
+    $('.pause-play20').css("border", "none");
+    $('.pause-play21').css("border", "none");
+    $('.pause-play22').css("border", "none");
+    $('.pause-play23').css("border", "none");
+    $('.pause-play24').css("border", "none");
+    $('.pause-play26').css("border", "none");
+    $('.pause-play27').css("border", "none")
+    $('.play-pause19').css("border", "none");
+    $('.play-pause20').css("border", "none");
+    $('.play-pause21').css("border", "none");
+    $('.play-pause22').css("border", "none");
+    $('.play-pause23').css("border", "none");
+    $('.play-pause24').css("border", "none");
+    $('.play-pause25').css("border", "none");
+    $('.play-pause26').css("border", "none");
+    $('.play-pause27').css("border", "none");
+}
+
+function pauseAudio27() {
+    var myAudio = document.getElementById('audio27');
+    myAudio.pause();
+    $('.pause-play26').css("border-style", "solid");
+    $('.pause-play26').css("border-width", "2px");
+    $('.pause-play26').css("border-color", "yellow");
+    $('.pause-play26').css("border-radius", "25px");
+    $('.pause-play19').css("border", "none");
+    $('.pause-play20').css("border", "none");
+    $('.pause-play21').css("border", "none");
+    $('.pause-play22').css("border", "none");
+    $('.pause-play23').css("border", "none");
+    $('.pause-play24').css("border", "none");
+    $('.pause-play25').css("border", "none");
+    $('.pause-play27').css("border", "none")
+    $('.play-pause19').css("border", "none");
+    $('.play-pause20').css("border", "none");
+    $('.play-pause21').css("border", "none");
+    $('.play-pause22').css("border", "none");
+    $('.play-pause23').css("border", "none");
+    $('.play-pause24').css("border", "none");
+    $('.play-pause25').css("border", "none");
+    $('.play-pause26').css("border", "none");
+    $('.play-pause27').css("border", "none");
+}
+
+function pauseAudio28() {
+    var myAudio = document.getElementById('audio28');
+    myAudio.pause();
+    $('.pause-play27').css("border-style", "solid");
+    $('.pause-play27').css("border-width", "2px");
+    $('.pause-play27').css("border-color", "yellow");
+    $('.pause-play27').css("border-radius", "25px");
+    $('.pause-play19').css("border", "none");
+    $('.pause-play20').css("border", "none");
+    $('.pause-play21').css("border", "none");
+    $('.pause-play22').css("border", "none");
+    $('.pause-play23').css("border", "none");
+    $('.pause-play24').css("border", "none");
+    $('.pause-play25').css("border", "none");
+    $('.pause-play26').css("border", "none")
+    $('.play-pause19').css("border", "none");
+    $('.play-pause20').css("border", "none");
+    $('.play-pause21').css("border", "none");
+    $('.play-pause22').css("border", "none");
+    $('.play-pause23').css("border", "none");
+    $('.play-pause24').css("border", "none");
+    $('.play-pause25').css("border", "none");
+    $('.play-pause26').css("border", "none");
+    $('.play-pause27').css("border", "none");
+}
 function pauseAudioXFiles() {
     var myAudio = document.getElementById("audio1");
     myAudio.pause();
