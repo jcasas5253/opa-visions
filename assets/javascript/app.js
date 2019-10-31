@@ -78,6 +78,42 @@ $('#audio19').on('timeupdate', function () {
     $('#seekbar4').attr("value", this.currentTime / this.duration);
 })
 
+$('#audio20').on('timeupdate', function () {
+    $('#seekbar5').attr("value", this.currentTime / this.duration);
+})
+
+$('#audio21').on('timeupdate', function () {
+    $('#seekbar5').attr("value", this.currentTime / this.duration);
+})
+
+$('#audio22').on('timeupdate', function () {
+    $('#seekbar5').attr("value", this.currentTime / this.duration);
+})
+
+$('#audio23').on('timeupdate', function () {
+    $('#seekbar5').attr("value", this.currentTime / this.duration);
+})
+
+$('#audio24').on('timeupdate', function () {
+    $('#seekbar5').attr("value", this.currentTime / this.duration);
+})
+
+$('#audio25').on('timeupdate', function () {
+    $('#seekbar5').attr("value", this.currentTime / this.duration);
+})
+
+$('#audio26').on('timeupdate', function () {
+    $('#seekbar5').attr("value", this.currentTime / this.duration);
+})
+
+$('#audio27').on('timeupdate', function () {
+    $('#seekbar5').attr("value", this.currentTime / this.duration);
+})
+
+$('#audio28').on('timeupdate', function () {
+    $('#seekbar5').attr("value", this.currentTime / this.duration);
+})
+
 
 // Music Skip Forward or Back +-5
 function skipForward() {
@@ -385,6 +421,10 @@ function skipkBack19() {
 }
 
 // On Album click Display Music Player
+$('.flip-card0').click(function () {
+    fall();
+})
+
 $('.flip-card1').click(function () {
     xFiles();
 })
@@ -402,6 +442,12 @@ $('.flip-card4').click(function () {
 })
 
 // Style.Display Elements
+function fall() {
+    document.getElementById('playstation0').style.display = "block";
+    document.getElementById('container-btn').style.display = "none";
+    document.getElementById("album-new").style.display = "initial";
+}
+
 function toggleMusic() {
     document.getElementById('playstation').style.display = "block";
     document.getElementById('container-btn').style.display = "none";
@@ -429,6 +475,7 @@ function minuteMaid() {
 function newAlbum() {
     document.getElementById('container-btn').style.display = "block";
     document.getElementById('album-new').style.display = "none";
+    document.getElementById('playstation0').style.display = "none";
     document.getElementById('playstation').style.display = "none";
     document.getElementById('playstation1').style.display = "none";
     document.getElementById('playstation2').style.display = "none";
@@ -828,6 +875,32 @@ function playAudioNineteen() {
     $('.play-pause15').css("border", "none");
     $('.play-pause16').css("border", "none");
     $('.play-pause17').css("border", "none");
+}
+
+function playAudio20() {
+    var myAudio = document.getElementById("audio20");
+    myAudio.play();
+    $('.play-pause19').css("border-style", "solid");
+    $('.play-pause19').css("border-width", "2px");
+    $('.play-pause19').css("border-color", "yellow");
+    $('.play-pause19').css("border-radius", "25px");
+    $('.pause-play19').css("border", "none");
+    $('.pause-play20').css("border", "none");
+    $('.pause-play21').css("border", "none");
+    $('.pause-play22').css("border", "none");
+    $('.pause-play23').css("border", "none");
+    $('.pause-play24').css("border", "none");
+    $('.pause-play25').css("border", "none");
+    $('.pause-play26').css("border", "none");
+    $('.pause-play27').css("border", "none");
+    $('.play-pause20').css("border", "none");
+    $('.play-pause21').css("border", "none");
+    $('.play-pause22').css("border", "none");
+    $('.play-pause23').css("border", "none");
+    $('.play-pause24').css("border", "none");
+    $('.play-pause25').css("border", "none");
+    $('.play-pause26').css("border", "none");
+    $('.play-pause27').css("border", "none");
 }
 
 function playAudioXFiles() {
