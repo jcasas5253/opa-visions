@@ -1082,31 +1082,31 @@ function playAudio28() {
     $('.play-pause26').css("border", "none");
 }
 
-function playAudio22() {
-    var myAudio = document.getElementById("audio22");
-    myAudio.play();
-    $('.play-pause21').css("border-style", "solid");
-    $('.play-pause21').css("border-width", "2px");
-    $('.play-pause21').css("border-color", "yellow");
-    $('.play-pause21').css("border-radius", "25px");
-    $('.pause-play21').css("border", "none");
-    $('.pause-play20').css("border", "none");
-    $('.pause-play21').css("border", "none");
-    $('.pause-play22').css("border", "none");
-    $('.pause-play23').css("border", "none");
-    $('.pause-play24').css("border", "none");
-    $('.pause-play25').css("border", "none");
-    $('.pause-play26').css("border", "none");
-    $('.pause-play27').css("border", "none");
-    $('.play-pause19').css("border", "none");
-    $('.play-pause21').css("border", "none");
-    $('.play-pause22').css("border", "none");
-    $('.play-pause23').css("border", "none");
-    $('.play-pause24').css("border", "none");
-    $('.play-pause25').css("border", "none");
-    $('.play-pause26').css("border", "none");
-    $('.play-pause27').css("border", "none");
-}
+//function playAudio22() {
+//    var myAudio = document.getElementById("audio22");
+//    myAudio.play();
+//    $('.play-pause21').css("border-style", "solid");
+//    $('.play-pause21').css("border-width", "2px");
+//    $('.play-pause21').css("border-color", "yellow");
+//    $('.play-pause21').css("border-radius", "25px");
+//    $('.pause-play21').css("border", "none");
+//    $('.pause-play20').css("border", "none");
+//    $('.pause-play21').css("border", "none");
+//    $('.pause-play22').css("border", "none");
+//    $('.pause-play23').css("border", "none");
+//    $('.pause-play24').css("border", "none");
+//    $('.pause-play25').css("border", "none");
+//    $('.pause-play26').css("border", "none");
+//    $('.pause-play27').css("border", "none");
+//    $('.play-pause19').css("border", "none");
+//    $('.play-pause21').css("border", "none");
+//    $('.play-pause22').css("border", "none");
+//    $('.play-pause23').css("border", "none");
+//    $('.play-pause24').css("border", "none");
+//    $('.play-pause25').css("border", "none");
+//    $('.play-pause26').css("border", "none");
+//    $('.play-pause27').css("border", "none");
+//}
 
 function playAudioXFiles() {
     var myAudio = document.getElementById("audio1");
