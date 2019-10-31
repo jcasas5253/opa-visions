@@ -1225,3 +1225,5 @@ function pauseAudioXFiles() {
     $('.pause-play4').css("border-radius", "25px");
     $('.play-pause4').css("border", "none");
 }
+
+console.log("created by Jacob Casas");

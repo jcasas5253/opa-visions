@@ -1,5 +1,5 @@
 body {
-    background: url("../../assets/images/background.JPG") no-repeat center center fixed;
+    background: url("https://images.pexels.com/photos/1021876/pexels-photo-1021876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat center center fixed;
     background-size: cover;
     font-family: 'Prompt', sans-serif;
     overflow-x: hidden;
@@ -15,13 +15,13 @@ audio {
 .navbar {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: rgba(255, 255, 255, 0.5) !important;
+    background-color: white !important;
 }
 .nav-link:hover {
-    color: red !important;
+    color: rgb(231, 111, 12)  !important;
 }
 .nav-link {
-    color: white !important;
+    color: purple !important;
     margin-right: 10px;
     margin-left: 10px;
     font-weight: bold;
@@ -30,11 +30,9 @@ audio {
     background-color: rgb(231, 111, 12) !important;
     outline: none !important;
 }
-.navbar-collapse {
-}
 .logo {
     height: 60px;
-    width: 60px;
+    width: 160px;
     border-radius: .25rem;
 }
 p {
