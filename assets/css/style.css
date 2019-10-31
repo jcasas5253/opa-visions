@@ -268,7 +268,7 @@ iframe {
 }
 
 @media only screen and (max-width: 420px) {
-    #playstation, #playstation1, #playstation2, #playstation3 {
+    ##playstation0, #playstation, #playstation1, #playstation2, #playstation3 {
         width: 100% !important;
     }
 }
@@ -285,18 +285,19 @@ iframe {
         height: 100%
     }
 
-    #playstation,
-    #playstation1,
-    #playstation2,
-    #playstation3 {
-        background: rgba(255, 255, 255, 0.5);
-        border-radius: 20px;
-        width: 400px;
-        border: 1px solid #c1c1c1;
-        overflow-y: auto;
-        margin: 5px auto;
-        overflow-x: hidden;
-    }
+#playstation0,
+#playstation,
+#playstation1,
+#playstation2,
+#playstation3 {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    width: 400px;
+    border: 1px solid #c1c1c1;
+    overflow-y: auto;
+    margin: 5px auto;
+    overflow-x: hidden;
+}
 
     #controlpanel {
         padding: 50px 25px 15px;
@@ -304,6 +305,16 @@ iframe {
         position: relative;
         text-align: center;
     }
+#songpro0 {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 1px solid #eaeaea;
+    position: relative;
+    background: url("https://i1.sndcdn.com/artworks-000607929460-sg8rr3-t500x500.jpg") no-repeat 0 0;
+    background-size: 220px 220px;
+    box-shadow: inset 0px 0px 10px 2px #5f5f5f;
+}
 
     #songpro {
         width: 180px;
@@ -520,6 +531,7 @@ iframe {
         }
 
     /* CSS3 Counter */
+    .flip-card0,
     .flip-card1,
     .flip-card2,
     .flip-card3,
@@ -531,13 +543,15 @@ iframe {
         margin-right: auto;
         margin-left: auto;
     }
+    .flip-card0:hover,
+    .flip-card1:hover,
     .flip-card1:hover,
     .flip-card2:hover,
     .flip-card3:hover,
     .flip-card4:hover {
         opacity: 0.8;
     }
-
+    .flip-card-inner0,
     .flip-card-inner1,
     .flip-card-inner2,
     .flip-card-inner3,
@@ -550,13 +564,13 @@ iframe {
         transform-style: preserve-3d;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
-
-    .flip-card1:hover .flip-card-inner1,
-    .flip-card2:hover .flip-card-inner2,
-    .flip-card3:hover .flip-card-inner3,
-    .flip-card4:hover .flip-card-inner4 {
-        cursor: pointer;
-    }
+.flip-card0:hover .flip-card-inner0,
+.flip-card1:hover .flip-card-inner1,
+.flip-card2:hover .flip-card-inner2,
+.flip-card3:hover .flip-card-inner3,
+.flip-card4:hover .flip-card-inner4 {
+    cursor: pointer;
+}
 
     .flip-card-front,
     .flip-card-back {
