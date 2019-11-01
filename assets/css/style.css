@@ -3,8 +3,6 @@ body {
     background-size: cover;
     font-family: 'Prompt', sans-serif;
     overflow-x: hidden;
-    padding-right: 10px;
-    padding-left: 10px;
 }
 h2 {
     color: purple;
@@ -238,6 +236,10 @@ iframe {
     .txt-bio {
         width: 100% !important;
         margin-left: 0 !important;
+    }
+    body {
+        padding-right: 10px;
+        padding-left: 10px;
     }
 }
 
