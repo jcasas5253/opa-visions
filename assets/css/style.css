@@ -301,6 +301,7 @@ iframe {
     overflow-y: auto;
     margin: 5px auto;
     overflow-x: hidden;
+    margin-bottom: 100px;
 }
 
     #controlpanel {
