@@ -237,6 +237,10 @@ iframe {
         width: 100% !important;
         margin-left: 0 !important;
     }
+    body {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
 }
 
 @media only screen and (max-width: 925px) {
@@ -268,8 +272,8 @@ iframe {
 }
 
 @media only screen and (max-width: 420px) {
-    ##playstation0, #playstation, #playstation1, #playstation2, #playstation3 {
-        width: 100% !important;
+    #playstation0, #playstation, #playstation1, #playstation2, #playstation3 {
+        width: auto !important;
     }
 }
 
@@ -297,6 +301,7 @@ iframe {
     overflow-y: auto;
     margin: 5px auto;
     overflow-x: hidden;
+    margin-bottom: 100px;
 }
 
     #controlpanel {
