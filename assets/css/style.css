@@ -757,3 +757,11 @@ iframe {
 .landing-page {
     padding: 0 !important;
 }
+.hamburger {
+    border-bottom-right-radius: 100%;
+    background-color: rgb(231, 111, 12);
+    padding-right: 50px !important;
+}
+.hamburger__icon, .hamburger__icon:before, .hamburger__icon:after {
+    background-color: #fff !important;
+}
