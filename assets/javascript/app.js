@@ -1887,3 +1887,7 @@ function pauseAudioXFiles() {
     $.fatNav();
     
 }());
+
+if ($('.content1').is(':visible')) {
+    $('.hamburger').css("display", "none");
+}
