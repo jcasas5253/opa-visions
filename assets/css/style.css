@@ -755,8 +755,6 @@ iframe {
     /* bring your own prefixes */
     transform: translate(-50%, -50%);
     border-radius: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 .hamburger {
     border-bottom-right-radius: 100%;
