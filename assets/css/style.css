@@ -772,10 +772,9 @@ iframe {
 }
 
 footer {
-    position: fixed;
-    margin-top: 15px;
+    position: inherit;
     bottom: 0;
-    width: 101%;
+    width: 102%;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.5);
 }
