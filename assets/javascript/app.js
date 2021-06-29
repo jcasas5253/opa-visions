@@ -567,22 +567,42 @@ function skipkBack28() {
 // On Album click Display Music Player
 $('.flip-card0').click(function () {
     fall();
+    $("#album-new")[0].scrollIntoView({
+        behavior: "smooth", // or "auto" or "instant"
+        block: "start" // or "end"
+    });
 })
 
 $('.flip-card1').click(function () {
     xFiles();
+    $("#album-new")[0].scrollIntoView({
+        behavior: "smooth", // or "auto" or "instant"
+        block: "start" // or "end"
+    });
 })
 
 $('.flip-card2').click(function () {
     toggleMusic();
+    $("#album-new")[0].scrollIntoView({
+        behavior: "smooth", // or "auto" or "instant"
+        block: "start" // or "end"
+    });
 })
 
 $('.flip-card3').click(function () {
     mixTape();
+    $("#album-new")[0].scrollIntoView({
+        behavior: "smooth", // or "auto" or "instant"
+        block: "start" // or "end"
+    });
 })
 
 $('.flip-card4').click(function () {
     minuteMaid();
+    $("#album-new")[0].scrollIntoView({
+        behavior: "smooth", // or "auto" or "instant"
+        block: "start" // or "end"
+    });
 })
 
 // Style.Display Elements
@@ -590,6 +610,7 @@ function fall() {
     document.getElementById('playstation0').style.display = "block";
     document.getElementById('container-btn').style.display = "none";
     document.getElementById("album-new").style.display = "initial";
+    
 }
 
 function toggleMusic() {
@@ -624,6 +645,10 @@ function newAlbum() {
     document.getElementById('playstation1').style.display = "none";
     document.getElementById('playstation2').style.display = "none";
     document.getElementById('playstation3').style.display = "none";
+    $("#music-scroll")[0].scrollIntoView({
+        behavior: "smooth", // or "auto" or "instant"
+        block: "start" // or "end"
+    });
 }
 
 
@@ -1891,3 +1916,18 @@ function pauseAudioXFiles() {
 if ($('.content1').is(':visible')) {
     $('.hamburger').css("display", "none");
 }
+$('html, body').animate({
+    scrollTop: $("#loader1").offset().top -100
+}, 1000);
+
+$('#loader0').click(function() {
+    $('#video-gallery').toggle();
+});
+
+$('#loader1').click(function() {
+    $('#container-btn').toggle();
+});
+
+$('#loader2').click(function() {
+    $('#img-gallery').toggle();
+});
