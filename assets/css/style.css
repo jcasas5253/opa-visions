@@ -27,7 +27,7 @@ h2 {
 audio {
     outline: none !important;
 }
-.navbar {
+/* .navbar {
     padding-top: 0;
     padding-bottom: 0;
     background-color: white !important;
@@ -44,12 +44,12 @@ audio {
 .navbar-toggler {
     background-color: rgb(231, 111, 12) !important;
     outline: none !important;
-}
-.logo {
+} */
+/* .logo {
     height: 60px;
     width: 160px;
     border-radius: .25rem;
-}
+} */
 p {
     margin-left: 25%;
     margin-bottom: 0;
@@ -554,6 +554,7 @@ iframe {
         }
 
     /* CSS3 Counter */
+    .flip-card0000,
     .flip-card000,
     .flip-card00,
     .flip-card0,
@@ -570,6 +571,7 @@ iframe {
         margin-right: auto;
         margin-left: auto;
     }
+    .flip-card0000:hover,
     .flip-card000:hover,
     .flip-card00:hover,
     .flip-card0:hover,
@@ -582,6 +584,7 @@ iframe {
     .flip-card6:hover {
         opacity: 0.8;
     }
+    .flip-card-inner0000,
     .flip-card-inner000,
     .flip-card-inner00,
     .flip-card-inner0,
@@ -599,6 +602,7 @@ iframe {
         transform-style: preserve-3d;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
+.flip-card0000:hover .flip-card-inner0000,
 .flip-card000:hover .flip-card-inner000,
 .flip-card00:hover .flip-card-inner00,
 .flip-card0:hover .flip-card-inner0,

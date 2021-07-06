@@ -621,6 +621,14 @@ $('.flip-card000').click(function () {
     });
 })
 
+$('.flip-card0000').click(function () {
+    stopLying();
+    $("#album-new")[0].scrollIntoView({
+        behavior: "smooth", // or "auto" or "instant"
+        block: "start" // or "end"
+    });
+})
+
 $('.flip-card5').click(function () {
     echoesSingle();
     $("#album-new")[0].scrollIntoView({
@@ -665,7 +673,7 @@ function fall() {
     $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(29)').css("display", "none");
     $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(30)').css("display", "none");
     $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(31)').css("display", "none");
-    
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(32)').css("display", "none");
 }
 
 function toggleMusic() {
@@ -700,6 +708,7 @@ function toggleMusic() {
     $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(29)').css("display", "none");
     $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(30)').css("display", "none");
     $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(31)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(32)').css("display", "none");
 }
 
 function mixTape() {
@@ -726,13 +735,14 @@ function mixTape() {
     $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(29)').css("display", "none");
     $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(30)').css("display", "none");
     $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(31)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(32)').css("display", "none");
 }
 
 function sloJams() {
     document.getElementById('playlist-player').style.display = "block";
     document.getElementById('container-btn').style.display = "none";
     document.getElementById("album-new").style.display = "initial";
-    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(10)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(0)').css("display", "none");
     $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(11)').css("display", "none");
     $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(12)').css("display", "none");
     $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(13)').css("display", "none");
@@ -754,6 +764,7 @@ function sloJams() {
     $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(29)').css("display", "none");
     $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(30)').css("display", "none");
     $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(31)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(32)').css("display", "none");
     
 }
 
@@ -792,6 +803,45 @@ function sloSingles() {
     $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(28)').css("display", "none");
     $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(30)').css("display", "none");
     $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(31)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(32)').css("display", "none");
+}
+
+function stopLying() {
+    document.getElementById('playlist-player').style.display = "block";
+    document.getElementById('container-btn').style.display = "none";
+    document.getElementById("album-new").style.display = "initial";
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(1)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(2)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(3)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(4)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(5)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(6)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(7)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(8)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(9)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(10)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(11)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(12)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(13)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(14)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(15)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(16)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(17)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(18)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(19)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(20)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(21)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(22)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(23)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(24)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(25)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(26)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(27)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(28)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(29)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(30)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(31)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(32)').css("display", "none");
 }
 
 function echoesSingle() {
@@ -829,6 +879,7 @@ function echoesSingle() {
     $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(28)').css("display", "none");
     $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(29)').css("display", "none");
     $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(31)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(32)').css("display", "none");
 }
 
 function passinSingle() {
@@ -866,6 +917,7 @@ function passinSingle() {
     $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(28)').css("display", "none");
     $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(29)').css("display", "none");
     $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(30)').css("display", "none");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(32)').css("display", "none");
 }
 
 function newAlbum() {
@@ -908,6 +960,7 @@ function newAlbum() {
     $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(29)').css("display", "block");
     $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(30)').css("display", "block");
     $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(31)').css("display", "block");
+    $('.PlaylistItem__PlaylistItemComponent-sc-150ez25-14:eq(32)').css("display", "block");
 }
 
 
