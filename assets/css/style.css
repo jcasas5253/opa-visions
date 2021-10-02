@@ -10,6 +10,10 @@ html, body {
     overflow-x: hidden;
 }
 
+.new-album {
+    display: none;
+}
+
 .landing-page {
     background: url("../../assets/images/giphy\ \(1\).gif") no-repeat center center fixed;
     background-size: cover;
@@ -87,7 +91,7 @@ p {
     text-align: center;
 }
 .music-btn,
-.new-album {
+.new-album {	
     background: rgb(231, 111, 12);
     color: #fff;
     border: none;
