@@ -11,7 +11,7 @@ html, body {
 }
 
 .new-album {
-    display: none;
+    display: none !important;
 }
 
 .landing-page {
