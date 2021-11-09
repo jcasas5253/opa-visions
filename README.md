@@ -8,4 +8,4 @@ This website was built for OPA (Only Publishing Art). It includes their music, p
 
 ![Screenshot (25)](https://user-images.githubusercontent.com/43353267/140972219-2f1864a7-2c9f-4b4a-aac4-b4300510abba.png)
 
-![Screenshot (83)](https://user-images.githubusercontent.com/43353267/68256847-1e742580-ffe6-11e9-81ee-0f86fc6b5618.png)
+![Screenshot (26)](https://user-images.githubusercontent.com/43353267/140972375-0bce8fd0-9842-49f7-956d-7cfe595a72a4.png)
